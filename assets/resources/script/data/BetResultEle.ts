@@ -95,6 +95,7 @@ export default class BetResultEle{
         for(let i=0;i<tupremoveList.length;i++){
             tcounts[tupremoveList[i].col] += tupremoveList[i].rowCount;
         }
+        return tcounts;
     }
 
     private getWinLins(counts){
