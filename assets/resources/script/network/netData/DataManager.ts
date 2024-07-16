@@ -14,6 +14,7 @@ export default class DataManager{
     public static CMD_S_StatusFree=null;
     public static CMD_GR_ServerInfoV2=null;
     public static betCfg=null;
+    public static currBet:number=0;
     public static getCmdEventName(mainCmdID, SubCmdID, serverTypeStr=null) {
         let tserverTypeStr = serverTypeStr?serverTypeStr:this.serverTypeStr;
         return tserverTypeStr + "_" + "CMD_" + mainCmdID + "_" + SubCmdID;

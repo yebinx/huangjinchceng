@@ -1,3 +1,5 @@
+import { GameData } from "../../../goldencity/script/game_date/game_data";
+import DataManager from "../network/netData/DataManager";
 import BetResultEle from "./BetResultEle";
 import CardListEle from "./CardListEle";
 
@@ -23,6 +25,7 @@ export default class BetResult{
         this.balance = CMD_S_GameEnd.llUserTotalScore.value;
         this.freetimes = CMD_S_GameEnd.nCurRoundFreeCount.value;
         this.wintotal = CMD_S_GameEnd.lNormalTotalAwardGold.value;
+        this.bet = DataManager.currBet;
     }
 
     private addResultData(CMD_S_GameEnd){

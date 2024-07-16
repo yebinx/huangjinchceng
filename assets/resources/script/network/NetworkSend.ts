@@ -34,7 +34,7 @@ export class NetworkSend
         console.log("sendStartSpin: ", betConfig);
         let cmddata = new mssCmd.CMD_C_GAME_START();
         cmddata.nBet.value = betConfig.mTotalAmount;
-      
+        DataManager.currBet = betConfig.mTotalAmount;
         Network.Instance.SendCmd(RoomMainCmd.MDM_GF_GAME, mssCmd.SUB_C_START, cmddata);
         DataManager.clearClassData();
     }
