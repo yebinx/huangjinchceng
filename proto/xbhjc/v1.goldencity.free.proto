@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option go_package="GoldenCity/gin;GoldenCitygin";
+
+import "base.proto";
+
+message TProtoGoldenCityFreeReq
+{
+    string      token       = 1;  //
+}
+
+message TProtoGoldenCityFreeRsp
+{
+    int64                           balance   = 1;
+    repeated TResult      result    = 2;
+    int64                           bet       = 3;  //投注总额
+    int32                           freetimes = 4;  //单次旋转后，触发的新获得的免费次数
+    int64                           wintotal  = 5;  //一次旋转到不能再消除后，赢得总金额
+    string                          orderid   = 6;  //订单ID 
+}
+///////

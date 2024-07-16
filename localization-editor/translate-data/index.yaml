@@ -1,0 +1,1296 @@
+locale: index
+items:
+  shared_title_start_game:
+    key: shared_title_start_game
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_loading_tips_do_login:
+    key: shared_loading_tips_do_login
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_loading_tips:
+    key: shared_loading_tips
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_login_fail:
+    key: shared_login_fail
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_exit:
+    key: shared_btn_exit
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_sound:
+    key: shared_btn_sound
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_rate:
+    key: shared_btn_rate
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_rule:
+    key: shared_btn_rule
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_history:
+    key: shared_btn_history
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_close:
+    key: shared_btn_close
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_loading:
+    key: shared_loading
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_retry:
+    key: shared_btn_retry
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_start:
+    key: shared_record_start
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_end:
+    key: shared_record_end
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_type_title:
+    key: shared_record_date_type_title
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_today:
+    key: shared_record_date_today
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_last_week:
+    key: shared_record_date_last_week
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_custom:
+    key: shared_record_date_custom
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_history_title:
+    key: shared_record_history_title
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_time:
+    key: shared_record_time
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_order_number:
+    key: shared_record_order_number
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_normal_play:
+    key: shared_record_normal_play
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_title:
+    key: shared_setting_bet_title
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_base:
+    key: shared_setting_bet_base
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_multiple:
+    key: shared_setting_bet_multiple
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_line:
+    key: shared_setting_bet_line
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_total:
+    key: shared_setting_bet_total
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_info_tips:
+    key: shared_record_win_line_info_tips
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule:
+    key: shared_game_rule
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_auto_start_title:
+    key: shared_setting_auto_start_title
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_auto_start_count:
+    key: shared_setting_auto_start_count
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_max_bet:
+    key: shared_setting_bet_max_bet
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_min_bet:
+    key: shared_setting_bet_min_bet
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_success:
+    key: shared_btn_success
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_not_history_record_tips:
+    key: shared_record_not_history_record_tips
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_bet:
+    key: shared_record_bet
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win:
+    key: shared_record_win
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_total_record_n:
+    key: shared_record_total_record_n
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_round_count:
+    key: shared_round_count
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_balance:
+    key: shared_record_balance
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_reward_multiple:
+    key: shared_record_reward_multiple
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_round_detail_not_reward:
+    key: shared_record_round_detail_not_reward
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_state:
+    key: shared_record_win_state
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_2:
+    key: shared_record_win_line_2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_3:
+    key: shared_record_win_line_3
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_4:
+    key: shared_record_win_line_4
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_5:
+    key: shared_record_win_line_5
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_6:
+    key: shared_record_win_line_6
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_7:
+    key: shared_record_win_line_7
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_8:
+    key: shared_record_win_line_8
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_9:
+    key: shared_record_win_line_9
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_free_bonus_n:
+    key: shared_record_free_bonus_n
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_auto_start_start:
+    key: shared_setting_auto_start_start
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_cash_money_bag:
+    key: shared_cash_money_bag
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_request_fail_retry:
+    key: shared_request_fail_retry
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_quick_on_tips:
+    key: shared_quick_on_tips
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_quick_off_tips:
+    key: shared_quick_off_tips
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_free_play:
+    key: shared_record_free_play
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_round_date:
+    key: shared_record_round_date
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_n:
+    key: shared_record_win_line_n
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_money_symbol:
+    key: shared_money_symbol
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_range:
+    key: shared_record_date_range
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_note_title_transaction_fail:
+    key: shared_note_title_transaction_fail
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_insufficient_balance_tips:
+    key: shared_insufficient_balance_tips
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_unknow_error_try_again:
+    key: shared_unknow_error_try_again
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_tips:
+    key: shared_title_tips
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_note_heart_beat_time_out:
+    key: shared_note_heart_beat_time_out
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_exit_game:
+    key: shared_title_exit_game
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_reload:
+    key: shared_title_reload
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_exit_game_tips_content:
+    key: shared_exit_game_tips_content
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_cancel:
+    key: shared_title_cancel
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_symbol_name_scatter:
+    key: shared_symbol_name_scatter
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_symbol_name_wild:
+    key: shared_symbol_name_wild
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  "'------------------------------------------------------’":
+    key: "'------------------------------------------------------’"
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_main_game:
+    key: shared_main_game
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start:
+    key: shared_btn_start
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start_info1:
+    key: shared_btn_start_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start_info2:
+    key: shared_btn_start_info2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start_info3:
+    key: shared_btn_start_info3
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start_info4:
+    key: shared_btn_start_info4
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_stop:
+    key: shared_btn_stop
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_stop_info1:
+    key: shared_btn_stop_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_minus:
+    key: shared_btn_minus
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_minus_info1:
+    key: shared_btn_minus_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_add:
+    key: shared_btn_add
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_add_info1:
+    key: shared_btn_add_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_money_bag_balance:
+    key: shared_money_bag_balance
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_money_bag_balance_info1:
+    key: shared_money_bag_balance_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money:
+    key: shared_bet_money
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info1:
+    key: shared_bet_money_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info2:
+    key: shared_bet_money_info2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info3:
+    key: shared_bet_money_info3
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info4:
+    key: shared_bet_money_info4
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info5:
+    key: shared_bet_money_info5
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_prize_money:
+    key: shared_prize_money
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_prize_money_info1:
+    key: shared_prize_money_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_auto_start_info1:
+    key: shared_btn_auto_start_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_auto_start_info2:
+    key: shared_btn_auto_start_info2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_snape:
+    key: shared_btn_snape
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_snape_info1:
+    key: shared_btn_snape_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_menu:
+    key: shared_btn_menu
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_menu_info1:
+    key: shared_btn_menu_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_audio_info1:
+    key: shared_btn_audio_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_rate_info1:
+    key: shared_btn_rate_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_rule_info1:
+    key: shared_btn_rule_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_history_info1:
+    key: shared_btn_history_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_history_info2:
+    key: shared_btn_history_info2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_close_info1:
+    key: shared_btn_close_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_bonus_multiple:
+    key: shared_game_rule_bonus_multiple
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_free_game:
+    key: shared_game_rule_free_game
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rate_line_example:
+    key: shared_game_rate_line_example
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rate_line_example_2:
+    key: shared_game_rate_line_example_2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_bet_size_introduce:
+    key: shared_game_bet_size_introduce
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_bet_multiple_introduce:
+    key: shared_game_bet_multiple_introduce
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_total_bet_introduce:
+    key: shared_game_total_bet_introduce
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_money_bag_introduce:
+    key: shared_game_money_bag_introduce
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_auto_spin_introduce:
+    key: shared_game_auto_spin_introduce
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_other_info:
+    key: shared_game_rule_other_info
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_other_info_1:
+    key: shared_game_rule_other_info_1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_other_info_2:
+    key: shared_game_rule_other_info_2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  buy_bonus_game:
+    key: buy_bonus_game
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 00393944-dcae-4189-93ba-7577a0c21f1d
+        nodeUuid: dc+D7tr7xNbptVI9/xVvgu
+        reference: 00393944-dcae-4189-93ba-7577a0c21f1d
+      - sceneUuid: a3acf168-8424-4459-b00f-6cb1b7b756cd
+        nodeUuid: 43JITzM3VF+pE4HqG8hZqE
+        reference: a3acf168-8424-4459-b00f-6cb1b7b756cd
+    _variants: []
+  "'-------------------'":
+    key: "'-------------------'"
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_bonus_multiple_1:
+    key: game_rule_bonus_multiple_1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_bonus_multiple_2:
+    key: game_rule_bonus_multiple_2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_free_game_1:
+    key: game_rule_free_game_1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_free_game_2:
+    key: game_rule_free_game_2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_free_game_3:
+    key: game_rule_free_game_3
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_free_game_4:
+    key: game_rule_free_game_4
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_symbol:
+    key: game_rule_symbol
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_symbol_1:
+    key: game_rule_symbol_1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_symbol_2:
+    key: game_rule_symbol_2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_symbol_3:
+    key: game_rule_symbol_3
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_title:
+    key: game_rate_line_info_title
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_1:
+    key: game_rate_line_info_1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_2:
+    key: game_rate_line_info_2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_3:
+    key: game_rate_line_info_3
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_4:
+    key: game_rate_line_info_4
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_5:
+    key: game_rate_line_info_5
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_6:
+    key: game_rate_line_info_6
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_symbol_value:
+    key: game_rate_symbol_value
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_symbol_info_1:
+    key: game_rate_symbol_info_1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  symbol_wild_info:
+    key: symbol_wild_info
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_symbol_info_3:
+    key: game_rate_symbol_info_3
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1:
+    key: game_rule_title_1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_1:
+    key: game_rule_title_1_1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_2:
+    key: game_rule_title_1_2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_7:
+    key: game_rule_title_1_7
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_8:
+    key: game_rule_title_1_8
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_12:
+    key: game_rule_title_1_12
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_19:
+    key: game_rule_title_1_19
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  symbol_scatter_info:
+    key: symbol_scatter_info
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  FeatureBuyDesc1:
+    key: FeatureBuyDesc1
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 90f4b5e0-3ae7-4286-92e5-f2009ebf81d7
+        nodeUuid: 6cR5FiT9pDDKs3Bgcw+VCG
+        reference: 90f4b5e0-3ae7-4286-92e5-f2009ebf81d7
+      - sceneUuid: 00393944-dcae-4189-93ba-7577a0c21f1d
+        nodeUuid: ffWUgKdJlPlKPdhhQZRNZw
+        reference: 00393944-dcae-4189-93ba-7577a0c21f1d
+      - sceneUuid: a3acf168-8424-4459-b00f-6cb1b7b756cd
+        nodeUuid: 43JITzM3VF+pE4HqG8hZqE
+        reference: a3acf168-8424-4459-b00f-6cb1b7b756cd
+    _variants: []
+  FeatureBuyDesc2:
+    key: FeatureBuyDesc2
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 00393944-dcae-4189-93ba-7577a0c21f1d
+        nodeUuid: 39e3HdlgVPwppPHSeEzgkz
+        reference: 00393944-dcae-4189-93ba-7577a0c21f1d
+      - sceneUuid: a3acf168-8424-4459-b00f-6cb1b7b756cd
+        nodeUuid: 43JITzM3VF+pE4HqG8hZqE
+        reference: a3acf168-8424-4459-b00f-6cb1b7b756cd
+    _variants: []
+  game_rule_title_1_9:
+    key: game_rule_title_1_9
+    value: ""
+    type: 2
+    isVariant: false
+    associations:
+      - sceneUuid: 17780e82-f459-4593-bd8a-ef08414e038e
+        nodeUuid: e8bUGQp/9CQLKxBfYW8NQ/
+        reference: 17780e82-f459-4593-bd8a-ef08414e038e
+    _variants: []
+  game_rule_title_1_10:
+    key: game_rule_title_1_10
+    value: ""
+    type: 2
+    isVariant: false
+    associations:
+      - sceneUuid: 17780e82-f459-4593-bd8a-ef08414e038e
+        nodeUuid: e8bUGQp/9CQLKxBfYW8NQ/
+        reference: 17780e82-f459-4593-bd8a-ef08414e038e
+    _variants: []
+  game_rule_title_1_11:
+    key: game_rule_title_1_11
+    value: ""
+    type: 2
+    isVariant: false
+    associations:
+      - sceneUuid: 17780e82-f459-4593-bd8a-ef08414e038e
+        nodeUuid: e8bUGQp/9CQLKxBfYW8NQ/
+        reference: 17780e82-f459-4593-bd8a-ef08414e038e
+    _variants: []
+  game_rule_title_1_13:
+    key: game_rule_title_1_13
+    value: ""
+    type: 2
+    isVariant: false
+    associations:
+      - sceneUuid: 17780e82-f459-4593-bd8a-ef08414e038e
+        nodeUuid: e8bUGQp/9CQLKxBfYW8NQ/
+        reference: 17780e82-f459-4593-bd8a-ef08414e038e
+    _variants: []
+  game_rule_title_1_14:
+    key: game_rule_title_1_14
+    value: ""
+    type: 2
+    isVariant: false
+    associations:
+      - sceneUuid: 17780e82-f459-4593-bd8a-ef08414e038e
+        nodeUuid: e8bUGQp/9CQLKxBfYW8NQ/
+        reference: 17780e82-f459-4593-bd8a-ef08414e038e
+    _variants: []
+  game_rule_title_1_15:
+    key: game_rule_title_1_15
+    value: ""
+    type: 2
+    isVariant: false
+    associations:
+      - sceneUuid: 17780e82-f459-4593-bd8a-ef08414e038e
+        nodeUuid: e8bUGQp/9CQLKxBfYW8NQ/
+        reference: 17780e82-f459-4593-bd8a-ef08414e038e
+    _variants: []
+  ScatterDescription:
+    key: ScatterDescription
+    value: ""
+    type: 2
+    isVariant: false
+    associations:
+      - sceneUuid: 13cd2329-4a0d-4332-bdf9-9c40f8f590a6
+        nodeUuid: ce4jL7AMlNzImkvomvl9/C
+        reference: 13cd2329-4a0d-4332-bdf9-9c40f8f590a6
+      - sceneUuid: 13cd2329-4a0d-4332-bdf9-9c40f8f590a6
+        nodeUuid: ce4jL7AMlNzImkvomvl9/C
+        reference: 13cd2329-4a0d-4332-bdf9-9c40f8f590a6
+    _variants: []
+  shared_NetworkErrorMessage:
+    key: shared_NetworkErrorMessage
+    value: ""
+    type: 2
+    isVariant: false
+    associations:
+      - sceneUuid: 17780e82-f459-4593-bd8a-ef08414e038e
+        nodeUuid: e8bUGQp/9CQLKxBfYW8NQ/
+        reference: 17780e82-f459-4593-bd8a-ef08414e038e
+    _variants: []
+  shared_ServerErrorMessage:
+    key: shared_ServerErrorMessage
+    value: ""
+    type: 2
+    isVariant: false
+    associations:
+      - sceneUuid: 17780e82-f459-4593-bd8a-ef08414e038e
+        nodeUuid: e8bUGQp/9CQLKxBfYW8NQ/
+        reference: 17780e82-f459-4593-bd8a-ef08414e038e
+    _variants: []
+  shared_AnimationTips:
+    key: shared_AnimationTips
+    value: ""
+    type: 2
+    isVariant: false
+    associations:
+      - sceneUuid: 17780e82-f459-4593-bd8a-ef08414e038e
+        nodeUuid: e8bUGQp/9CQLKxBfYW8NQ/
+        reference: 17780e82-f459-4593-bd8a-ef08414e038e
+    _variants: []
+  shared_btn_auto_start:
+    key: shared_btn_auto_start
+    value: ""
+    type: 2
+    isVariant: false
+    associations:
+      - sceneUuid: 17780e82-f459-4593-bd8a-ef08414e038e
+        nodeUuid: e8bUGQp/9CQLKxBfYW8NQ/
+        reference: 17780e82-f459-4593-bd8a-ef08414e038e
+    _variants: []
+  shared_login_fail_account_error_content:
+    key: shared_login_fail_account_error_content
+    value: ""
+    type: 2
+    isVariant: false
+    associations:
+      - sceneUuid: 17780e82-f459-4593-bd8a-ef08414e038e
+        nodeUuid: e8bUGQp/9CQLKxBfYW8NQ/
+        reference: 17780e82-f459-4593-bd8a-ef08414e038e
+    _variants: []
+  shared_login_fail_account_error_title:
+    key: shared_login_fail_account_error_title
+    value: ""
+    type: 2
+    isVariant: false
+    associations:
+      - sceneUuid: 17780e82-f459-4593-bd8a-ef08414e038e
+        nodeUuid: e8bUGQp/9CQLKxBfYW8NQ/
+        reference: 17780e82-f459-4593-bd8a-ef08414e038e
+    _variants: []
+  shared_login_fail_net_error_content:
+    key: shared_login_fail_net_error_content
+    value: ""
+    type: 2
+    isVariant: false
+    associations:
+      - sceneUuid: 17780e82-f459-4593-bd8a-ef08414e038e
+        nodeUuid: e8bUGQp/9CQLKxBfYW8NQ/
+        reference: 17780e82-f459-4593-bd8a-ef08414e038e
+    _variants: []
+  shared_login_fail_net_error_title:
+    key: shared_login_fail_net_error_title
+    value: ""
+    type: 2
+    isVariant: false
+    associations:
+      - sceneUuid: 17780e82-f459-4593-bd8a-ef08414e038e
+        nodeUuid: e8bUGQp/9CQLKxBfYW8NQ/
+        reference: 17780e82-f459-4593-bd8a-ef08414e038e
+    _variants: []
+  shared_load_user_info:
+    key: shared_load_user_info
+    value: ""
+    type: 2
+    isVariant: false
+    associations:
+      - sceneUuid: 17780e82-f459-4593-bd8a-ef08414e038e
+        nodeUuid: e8bUGQp/9CQLKxBfYW8NQ/
+        reference: 17780e82-f459-4593-bd8a-ef08414e038e
+    _variants: []
+  shared_load_game_bundle:
+    key: shared_load_game_bundle
+    value: ""
+    type: 2
+    isVariant: false
+    associations:
+      - sceneUuid: 17780e82-f459-4593-bd8a-ef08414e038e
+        nodeUuid: e8bUGQp/9CQLKxBfYW8NQ/
+        reference: 17780e82-f459-4593-bd8a-ef08414e038e
+    _variants: []
+  shared_load_shared:
+    key: shared_load_shared
+    value: ""
+    type: 2
+    isVariant: false
+    associations:
+      - sceneUuid: 17780e82-f459-4593-bd8a-ef08414e038e
+        nodeUuid: e8bUGQp/9CQLKxBfYW8NQ/
+        reference: 17780e82-f459-4593-bd8a-ef08414e038e
+      - sceneUuid: 17780e82-f459-4593-bd8a-ef08414e038e
+        nodeUuid: e8bUGQp/9CQLKxBfYW8NQ/
+        reference: 17780e82-f459-4593-bd8a-ef08414e038e
+      - sceneUuid: eb1f49b7-e0fc-42f1-b285-d483fdf18829
+        nodeUuid: 8druvkpoJAC4v4Oi+52X9/
+        reference: eb1f49b7-e0fc-42f1-b285-d483fdf18829
+    _variants: []
+  shared_account_login:
+    key: shared_account_login
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+languageConfig:
+  bcp47Tag: index
+  translateFinished: 436
+  translateTotal: 0
+  compileFinished: 0
+  compileTotal: 0

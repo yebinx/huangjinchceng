@@ -1,0 +1,119 @@
+syntax = "proto3";
+
+option go_package="game/server/GoldenCitygin;GoldenCitygin";
+
+enum IconDefine{
+    BLANK    = 0; //首值默认0，不代表任何意思
+    WILD     = 1;
+    SCATTER  = 2;
+    GOLDMASK = 3;
+    REDMASK  = 4;
+    TOTEM1   = 5;
+    TOTEM2   = 6;
+    TOTEM3   = 7;
+    TOTEM4   = 8;
+    ACE      = 9;
+    KING     = 10;
+    QUEEN    = 11;
+    JACK     = 12;
+    TEN      = 13;
+}
+
+enum IconGrid {
+    SPACE_NULL = 0;
+    SPACEBASE = 100; // 没有100
+    SPACE2 = 200; // 2格
+    SPACE3 = 300; // 3格
+    SPACE4 = 400; // 4格
+}
+
+enum IconFrame {
+    ICON_NULL = 0;
+    SILVER = 1;
+    GOLD = 2;
+    SILVERFRAME = 1000; // 银
+    GOLDFRAME = 2000; // 金
+    WILDFRAME = 3000; // 金转百搭，客户端自己使用
+}
+
+// // 银色变金色图标索引位置和 变为金色图标的ID
+message TS2G  {
+    int32 goldenid  = 1; // 变的金色id
+    int32 silverindex = 2; // 银色图标索引
+}
+
+message TGoldenCityCardList
+{
+    repeated IconDefine list        = 1;        // 这一盘的牌型的列表
+    repeated int32      winpos      = 2;        // 消除的位置
+    repeated IconDefine droplist    = 3;        // 每一列降落图标列表
+    repeated TS2G s2glist                    = 4; // 银变金信息
+}
+
+message TRemoveList {
+	IconDefine      iconid      = 1;         //中奖图标
+	int32           winlines    = 2;         //中奖线数
+    repeated  int32 wincount    = 3;         //中奖数组类似[2 3 2 1 2]
+}
+
+message TResult
+{
+    repeated    TGoldenCityCardList card_list   = 1;  // 图标列表
+    int64       win                             = 2;  // 赢的金额
+    int64       havewin                         = 3;  // 除开这局之前赢的总金额, 1.每次旋转的后的总赢，2.登录的值是所有的总赢包含免费游戏和普通游戏
+    repeated    TRemoveList removelist          = 4;  // 消除具体信息
+    string      roundid                         = 5;  // 每一次旋转的回合ID，与每一次下注产生的orderid不同。orderid 包含或者等于roundid
+    int32       sceneodds                       = 6;  // 上一次免费回合里面的场景倍数
+    int64       balance                         = 7;  // 余额
+    int32       scattercount                    = 8;  // 夺宝次数
+    int64       createtime                      = 9;  // 每次旋转的发生时间
+}
+
+enum TAccountStatus {
+    ACCOUNT_STATUS_NORMAL   = 0; // 普通
+    ACCOUNT_STATUS_FROZEN    = 1; // 冻结
+    ACCOUNT_STATUS_FORBIDEN = 2; // 封号
+}
+
+message TPlayerInfo
+{
+    string          id        = 1;
+    int64           agent_id     = 2;         // 代理ID
+    int64           balance      = 3;         // 玩家余额
+    int64           frozen       = 4;         // 玩家冻结余额
+    string          account      = 5;         // 玩家账户
+    string          nickname     = 6;         // 玩家昵称(如果需要)
+    string          is_buy       = 7;         // 是否购买
+    TAccountStatus  status       = 8;         // 玩家状态
+    int64           target       = 9;         // 目标金额
+    int64           complete     = 10;        // 完成金额
+    int32           contr_rate   = 11;        // 控制比例
+    int32           special      = 12;        // 1:黑名单  2:白名单
+    string          agent_name   = 13;        // 代理的名称
+    string          client_ip    = 14;        // 最后登录的IP
+    string          line_code    = 15;        // 来源标识码
+    string          balance_s    = 16;        // 玩家余额
+    int32           type         = 17;        // 玩家类型:0-正常1-试玩
+    int32           platform     = 18;         // 平台 1:Android 2:Macos 3:IOS 4:windows 5:Macos 6:ohters
+    int32           mute         = 19;        // 音效状态
+    string          create_time  = 99;
+    string          update_time  = 100;
+}
+
+message TGoldenCityGameInfo
+{
+    string         id        = 1;
+    int64          player_id          = 2;    // 玩家ID
+    int32          free_play_times    = 3;    // 上一次下注剩余次数
+    int64          last_time_bet      = 4;    // 最后一次下注额度
+    int64          last_bet_id   = 5;    // 上一次下注ID
+    int32          betsize = 6; // 投注大小
+    int32          betmultiple = 7; // 投注倍数
+    int32          orderid = 8; // 订单ID，当触发了免费局后会更新这个字段
+    int32          betid = 9;  // 投注组合对应的ID
+    int32          sceneodds = 10; // 上一次免费回合里面的场景倍数
+    int64          havewin  = 11; // 本次orderId，之前赢的总金额
+
+    int64          create_time  = 99;
+    int64          update_time  = 100;
+}
