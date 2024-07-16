@@ -23,7 +23,7 @@ export default class DataManager{
     public static betResult:BetResult=null;
    public static norBetResp(CMD_S_GameEnd){
        if(!this.betResult)this.betResult=new BetResult(CMD_S_GameEnd);
-       else this.betResult.addNextRound(CMD_S_GameEnd);
+       else this.betResult.addRound(CMD_S_GameEnd);
        
    }
 

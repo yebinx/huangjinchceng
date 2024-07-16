@@ -11,12 +11,12 @@ export default class BetResult{
     public wintotal:number=0;
     public orderid:string="7-1703208881-4DB83D1F0";
     constructor(CMD_S_GameEnd){
-       this.setOutData(CMD_S_GameEnd);
-        this.addResultData(CMD_S_GameEnd);
+       this.addRound(CMD_S_GameEnd);
     }
 
-    public addNextRound(CMD_S_GameEnd){
+    public addRound(CMD_S_GameEnd){
         this.setOutData(CMD_S_GameEnd);
+        this.addResultData(CMD_S_GameEnd);
     }
 
     private setOutData(CMD_S_GameEnd){
