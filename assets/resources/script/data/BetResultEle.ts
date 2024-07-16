@@ -93,7 +93,8 @@ export default class BetResultEle{
         }
         let tupremoveList = this.card_list[0].removeList;
         for(let i=0;i<tupremoveList.length;i++){
-            tcounts[tupremoveList[i].col] += tupremoveList[i].rowCount;
+            if(tcounts[tupremoveList[i].col])tcounts[tupremoveList[i].col] += 1;
+            else tcounts[tupremoveList[i].col] = 1;
         }
         return tcounts;
     }
