@@ -403,8 +403,8 @@ export class GameData extends GameResultData{
     // 请求免费游戏
     async reqFree(){
         this.reqReset();
-
-        let respone = await this.httpRequest.reqFree() as TProtoGoldenCityFreeRsp;
+        let respone:any = await NetworkSend.Instance.sendStartSpinPromise({mTotalAmount:0})
+        //let respone = await this.httpRequest.reqFree() as TProtoGoldenCityFreeRsp;
         if (respone == null){
             return
         }
