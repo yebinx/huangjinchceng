@@ -43,7 +43,7 @@ export default class BetResultEle{
                 let tid = DataManager.convertId(tdata.iType.value,frameType,trowcount);
                 if(tdata.iType.value>0){
                     tele.addListEle(tid);
-                    tele.addSourceListEle(tid,trowcount);
+                    tele.addSourceListEle(tid,trowcount,frameType);
                 }
 
                 tdata = nRemoveIcon[row][col];

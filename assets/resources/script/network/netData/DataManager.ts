@@ -82,7 +82,7 @@ export default class DataManager{
    public static initBetInfo(){
         let tbetinfo:BetInfo = new BetInfo();
         if(this.betCfg){
-
+            tbetinfo.setBetmultipleTypes(this.betCfg);
         }
         return tbetinfo;
    }

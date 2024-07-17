@@ -69,6 +69,8 @@ export class GameData extends GameResultData{
     preserBetInfo(betInfo: TGoldenCityBetInfoRsp){
         let betBaseSet = new Map();
         let multipleSet = new Map();
+
+        
         let totalSet = new Map();
         this.szBaseBet = [];
         this.szMultiple = [];

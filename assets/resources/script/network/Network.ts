@@ -233,7 +233,7 @@ export class Network
                     filteredData = arr.map(item => item.value / CmdLen.COIN_RATE);
                 }
                
-                
+                DataManager.betCfg = filteredData;
                 console.log("新增的线配置",cmdData,filteredData);
             }
             else if(head.wMainCmdID.value == loginCMD.MDM_PP_LOGON && head.wSubCmdID.value == loginCMD.SUB_PP_LOGON_PSPT_LOGON_RES){

@@ -9,14 +9,7 @@ export default class BetInfo{
     public betmultipleLv=10;
     public base:number=20;
     constructor(){
-        let tbetid=0;
-        for(let i=0;i<this.betmultipleTypes.length;i++){
-            for(let h=1;h<=this.betmultipleLv;h++){
-                tbetid++;
-                let tele  = new BetinfoEle(tbetid,this.betmultipleTypes[i],h,this.base);
-                this.betinfo.push(tele);
-            }
-        }
+       this.setBetmultipleTypes();
         this.betadjust = [
             1,
             2,
@@ -36,6 +29,20 @@ export default class BetInfo{
         ]
         for(let i=1;i<=22;i++){
             this.buyfreebetid.push(i);
+        }
+    }
+
+    public setBetmultipleTypes(types=null){
+        this.betinfo=[];
+        if(types)this.betmultipleTypes=types;
+        let ttypes = this.betmultipleTypes;
+        let tbetid=0;
+        for(let i=0;i<ttypes.length;i++){
+            for(let h=1;h<=this.betmultipleLv;h++){
+                tbetid++;
+                let tele  = new BetinfoEle(tbetid,ttypes[i],h,this.base);
+                this.betinfo.push(tele);
+            }
         }
     }
 }

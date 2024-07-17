@@ -20,7 +20,7 @@ export default class CardListEle{
             let frameType = tdata.isGold.value;
             let tid = DataManager.convertId(tdata.iType.value,frameType,trowcount);
             this.list.push(tid);
-            this.addSourceListEle(tid,trowcount);
+            this.addSourceListEle(tid,trowcount,frameType);
             tdata = nRemoveIcon[i];
             trowcount = tdata.nMaxColCount.value;
             frameType = tdata.isGold.value;
@@ -48,8 +48,8 @@ export default class CardListEle{
         return frameType != 1 && frameType != 2;
     }
 
-    public addSourceListEle(id:number,row3:number){
-        this.scoureList.push({rowCount:row3,id:id});
+    public addSourceListEle(id:number,row3:number,frameType:number){
+        this.scoureList.push({rowCount:row3,id:id,frameType:frameType});
     }
 
     public getRemoveRows(){
@@ -68,14 +68,22 @@ export default class CardListEle{
         return trow;
     }
 
-    public setDropListFromNextList(ele:CardListEle){
+    public setDropListFromNextList(nextEle:CardListEle){
         let tthisRows = this.getAllRows()-this.getRemoveRows();
         let trows=0;
         this.droplist=[];
-        for(let row=0;row<ele.scoureList.length;row++){
-            trows += ele.scoureList[row].rowCount;
+        for(let row=0;row<nextEle.scoureList.length;row++){
+            trows += nextEle.scoureList[row].rowCount;
             if(trows>tthisRows){
-                this.droplist.push(ele.scoureList[row].id);
+                this.droplist.push(nextEle.scoureList[row].id);
+            }
+        }
+        for(let i=0;i<this.winpos.length;i++){
+            let tpos = this.winpos[i];
+            let frameType = this.scoureList[tpos].frameType;
+            let nextframeType = nextEle.scoureList[tpos].frameType;
+            if(frameType>0 && nextframeType>0 && frameType != nextframeType){
+                this.s2glist.push({goldenid:nextEle.scoureList[tpos].id,silverindex:nextEle.winpos[i]});
             }
         }
     }
