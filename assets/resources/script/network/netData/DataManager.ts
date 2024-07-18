@@ -3,7 +3,7 @@ import { IconFrame, IconGrid } from "../../../../goldencity/proto/base";
 import BetInfo from "../../data/BetInfo";
 import BetResult from "../../data/BetResult";
 import UserInfo from "../../data/UserInfo";
-import { mssCmd } from "./cmd";
+
 
 export default class DataManager{
     public static gametoken:string="";

@@ -53,6 +53,7 @@ export default class BetResultEle{
                 if(tdata.iType.value>0){
                     //tele.addDropEle(tid);
                     if(tele.isRemoveEle(frameType))tele.removeList.push({row:row-1,rowCount:trowcount,col:col,id:tid,norId:DataManager.convertToNorId(tdata.iType.value)});
+                    else console.log("win not remove",frameType,tid,row,col);
                     tele.addWinPos(row-1);
                     console.log("win row "+row,"col "+col,tid);
                 }

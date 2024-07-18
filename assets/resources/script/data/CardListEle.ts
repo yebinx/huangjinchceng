@@ -27,6 +27,7 @@ export default class CardListEle{
             tid = DataManager.convertId(tdata.iType.value,frameType,trowcount);
             if(tdata.iType.value>0){
                 if(this.isRemoveEle(frameType))this.removeList.push({row:i-startPos,rowCount:trowcount,id:tid,col:i,norId:DataManager.convertToNorId(tdata.iType.value)});
+                else console.log("win not remove",frameType,tid,0,i);
                 this.winpos.push(i-startPos);
             }
         }
