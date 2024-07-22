@@ -25,10 +25,11 @@ export default class CardListEle{
             trowcount = tdata.nMaxColCount.value;
             frameType = tdata.isGold.value;
             tid = DataManager.convertId(tdata.iType.value,frameType,trowcount);
-            if(tdata.iType.value>0){
+            if(tdata.iType.value>0 || frameType>0){
                 if(this.isRemoveEle(frameType))this.removeList.push({row:i-startPos,rowCount:trowcount,id:tid,col:i,norId:DataManager.convertToNorId(tdata.iType.value)});
                 else console.log("win not remove",frameType,tid,0,i);
                 this.winpos.push(i-startPos);
+                console.log("win row "+0,"col "+i,tid);
             }
         }
     }

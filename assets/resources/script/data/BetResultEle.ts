@@ -50,7 +50,7 @@ export default class BetResultEle{
                 trowcount = tdata.nMaxColCount.value;
                 frameType = tdata.isGold.value;
                 tid = DataManager.convertId(tdata.iType.value,frameType,trowcount);
-                if(tdata.iType.value>0){
+                if(tdata.iType.value>0 || frameType>0){
                     //tele.addDropEle(tid);
                     if(tele.isRemoveEle(frameType))tele.removeList.push({row:row-1,rowCount:trowcount,col:col,id:tid,norId:DataManager.convertToNorId(tdata.iType.value)});
                     else console.log("win not remove",frameType,tid,row,col);
