@@ -26,9 +26,17 @@ export default class CardListEle{
             frameType = tdata.isGold.value;
             tid = DataManager.convertId(tdata.iType.value,frameType,trowcount);
             if(tdata.iType.value>0 || frameType>0){
-                if(this.isRemoveEle(frameType))this.removeList.push({row:i-startPos,rowCount:trowcount,id:tid,col:i,norId:DataManager.convertToNorId(tdata.iType.value)});
-                else console.log("win not remove",frameType,tid,0,i);
                 this.winpos.push(i-startPos);
+                if(this.isRemoveEle(frameType)){
+                    this.removeList.push({row:i-startPos,rowCount:trowcount,id:tid,col:i,norId:DataManager.convertToNorId(tdata.iType.value)});
+                }else{
+                    if(frameType==1){
+                        let tgoldId = DataManager.convertId(tdata.iType.value,2,trowcount);
+                        this.s2glist.push({goldenid:tgoldId,silverindex:i-startPos});
+                    }
+                    console.log("win not remove",frameType,tid,0,i);
+                }
+                
                 console.log("win row "+0,"col "+i,tid);
             }
         }
@@ -80,13 +88,10 @@ export default class CardListEle{
                 this.droplist.push(nextEle.scoureList[row].id);
             }
         }
-        for(let i=0;i<this.winpos.length;i++){
-            let tpos = this.winpos[i];
-            let frameType = this.scoureList[tpos].frameType;
-            let nextframeType = nextEle.scoureList[tpos].frameType;
-            if(frameType>0 && nextframeType>0 && frameType != nextframeType){
-                this.s2glist.push({goldenid:nextEle.scoureList[tpos].id,silverindex:nextEle.winpos[i]});
-            }
-        }
+        // for(let i=0;i<this.s2glist.length;i++){
+        //     let tpos = this.s2glist[i].silverindex;
+        //     let tid = nextEle.scoureList[tpos].id;
+        //     this.s2glist[i].goldenid = tid;
+        // }
     }
 }

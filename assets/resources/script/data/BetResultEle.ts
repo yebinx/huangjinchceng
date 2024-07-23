@@ -52,9 +52,17 @@ export default class BetResultEle{
                 tid = DataManager.convertId(tdata.iType.value,frameType,trowcount);
                 if(tdata.iType.value>0 || frameType>0){
                     //tele.addDropEle(tid);
-                    if(tele.isRemoveEle(frameType))tele.removeList.push({row:row-1,rowCount:trowcount,col:col,id:tid,norId:DataManager.convertToNorId(tdata.iType.value)});
-                    else console.log("win not remove",frameType,tid,row,col);
                     tele.addWinPos(row-1);
+                    if(tele.isRemoveEle(frameType)){
+                        tele.removeList.push({row:row-1,rowCount:trowcount,col:col,id:tid,norId:DataManager.convertToNorId(tdata.iType.value)});
+                    }
+                    else{
+                        console.log("win not remove",frameType,tid,row-1,col);
+                        if(frameType==1){
+                            let tgoldId = DataManager.convertId(tdata.iType.value,2,trowcount);
+                            tele.s2glist.push({goldenid:tgoldId,silverindex:row-1});
+                        }
+                    } 
                     console.log("win row "+row,"col "+col,tid);
                 }
             }
@@ -74,23 +82,25 @@ export default class BetResultEle{
 
     private getRemoveIds(){
         let tids=[];
-        let tCardEle:CardListEle = this.card_list[0];
-        for(let i=0;i<tCardEle.removeList.length;i++){
-            let tid = tCardEle.removeList[i].norId;
-            if(tids.indexOf(tid)<0)tids.push(tid);
+        for(let j=0;j<this.card_list.length;j++){
+            let tCardEle:CardListEle = this.card_list[j];
+            for(let i=0;i<tCardEle.removeList.length;i++){
+                let tid = tCardEle.removeList[i].id;
+                if(tids.indexOf(tid)<0)tids.push(tid);
+            }
         }
         return tids;
     }
 
-    private getWinCount(norId:number){
+    private getWinCount(id:number){
         let tcounts = [];
         for(let i=1;i<this.card_list.length;i++){
             let tremoveEles = this.card_list[i].removeList;
             let tnum=0;
             for(let h=0;h<tremoveEles.length;h++){
-                if(tremoveEles[h].norId==norId)tnum++;
+                if(tremoveEles[h].id==id)tnum++;
             }
-            if(tnum>0)tcounts[i-1]=tnum;
+            tcounts[i-1]=tnum;
         }
         let tupremoveList = this.card_list[0].removeList;
         for(let i=0;i<tupremoveList.length;i++){
@@ -103,7 +113,7 @@ export default class BetResultEle{
     private getWinLins(counts){
         let tlines=1;
         for(let i=0;i<counts.length;i++){
-            tlines = tlines*counts[i];
+            if(counts[i]>0)tlines = tlines*counts[i];
         }
         return tlines;
     }

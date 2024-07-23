@@ -125,7 +125,7 @@ export class HttpRequest {
                             },
                             {
                                 "list": [
-                                    212,
+                                    1212,
                                     10,
                                     9,
                                     4
@@ -134,10 +134,9 @@ export class HttpRequest {
                                     0
                                 ],
                                 "droplist": [
-                                    3,
-                                    4
+                                   
                                 ],
-                                "s2glist": null
+                                "s2glist": [{silverindex:0,goldenid:2212}]
                             },
                             {
                                 "list": [
@@ -228,8 +227,7 @@ export class HttpRequest {
                             },
                             {
                                 "list": [
-                                    10,
-                                    9,
+                                    2212,
                                     4,
                                     3,
                                     4

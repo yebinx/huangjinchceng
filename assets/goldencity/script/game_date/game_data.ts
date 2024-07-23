@@ -382,8 +382,8 @@ export class GameData extends GameResultData{
 
         let balance_before_score = this.getBalance() - (buyType == TProtoGoldenCityBetType.NORMAL ? score : score * BONUS_BUY_MULTIPLE);
         let betInfo = this.getBetId(score);
-        let respone:any = await NetworkSend.Instance.sendStartSpinPromise({mTotalAmount:score})
-        // let respone:any = await this.httpRequest.reqBet(betInfo, score, buyType) as TProtoGoldenCityBetRsp; 
+        // let respone:any = await NetworkSend.Instance.sendStartSpinPromise({mTotalAmount:score})
+        let respone:any = await this.httpRequest.reqBet(betInfo, score, buyType) as TProtoGoldenCityBetRsp; 
         if (respone == null){
             return
         }
