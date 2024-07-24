@@ -39,27 +39,30 @@ export default class BetResultEle{
                 tdata = nIconAreaDistri[row][col];
                 let trowcount = tdata.nMaxColCount.value;
                 let frameType = tdata.isGold.value;
-                
-                let tid = DataManager.convertId(tdata.iType.value,frameType,trowcount);
+                let tsId = tdata.iType.value;
+                let tid = DataManager.convertId(tsId,frameType,trowcount);
                 if(tdata.iType.value>0){
                     tele.addListEle(tid);
                     tele.addSourceListEle(tid,trowcount,frameType);
                 }
 
                 tdata = nRemoveIcon[row][col];
-                trowcount = tdata.nMaxColCount.value;
+                // trowcount = tdata.nMaxColCount.value;
                 frameType = tdata.isGold.value;
-                tid = DataManager.convertId(tdata.iType.value,frameType,trowcount);
+                //tid = DataManager.convertId(tdata.iType.value,frameType,trowcount);
                 if(tdata.iType.value>0 || frameType>0){
                     //tele.addDropEle(tid);
                     tele.addWinPos(row-1);
                     if(tele.isRemoveEle(frameType)){
-                        tele.removeList.push({row:row-1,rowCount:trowcount,col:col,id:tid,norId:DataManager.convertToNorId(tdata.iType.value)});
+                        tele.removeList.push({row:row-1,rowCount:trowcount,col:col,id:tid,norId:DataManager.convertToNorId(tsId)});
                     }
                     else{
                         console.log("win not remove",frameType,tid,row-1,col);
                         if(frameType==1){
-                            let tgoldId = DataManager.convertId(tdata.iType.value,2,trowcount);
+                            let tgoldId = DataManager.convertId(tsId,2,trowcount);
+                            tele.s2glist.push({goldenid:tgoldId,silverindex:row-1});
+                        }else if(frameType==2){
+                            let tgoldId = (trowcount*100)+1;//转百搭
                             tele.s2glist.push({goldenid:tgoldId,silverindex:row-1});
                         }
                     } 

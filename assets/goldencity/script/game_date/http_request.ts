@@ -119,16 +119,16 @@ export class HttpRequest {
                                     2
                                 ],
                                 "droplist": [
-                                    7
+                                    5
                                 ],
                                 "s2glist": null
                             },
                             {
                                 "list": [
-                                    1212,
+                                    1312,
                                     10,
-                                    9,
-                                    4
+                                    9
+                                    
                                 ],
                                 "winpos": [
                                     0
@@ -136,7 +136,7 @@ export class HttpRequest {
                                 "droplist": [
                                    
                                 ],
-                                "s2glist": [{silverindex:0,goldenid:2212}]
+                                "s2glist": [{silverindex:0,goldenid:2312}]
                             },
                             {
                                 "list": [
@@ -181,6 +181,116 @@ export class HttpRequest {
                                     1,
                                     1,
                                     1
+                                ]
+                            }
+                        ],
+                        "roundid": "D5797EDDD3",
+                        "sceneodds": 1,
+                        "balance": 92293000,
+                        "scattercount": 0,
+                        "createtime": 1703208881000
+                    },
+                    {
+                        "card_list": [
+                            {
+                                "list": [
+                                    7,
+                                    9,
+                                    7,
+                                    8
+                                ],
+                                "winpos": [],
+                                "droplist": null,
+                                "s2glist": null
+                            },
+                            {
+                                "list": [
+                                    11,
+                                    11,
+                                    5,
+                                    13,
+                                    9
+                                ],
+                                "winpos": [
+                                    2
+                                ],
+                                "droplist": [
+                                    9
+                                ],
+                                "s2glist": null
+                            },
+                            {
+                                "list": [
+                                    1307,
+                                    13,
+                                    7
+                                ],
+                                "winpos": [
+                                    2
+                                ],
+                                "droplist": [
+                                    7
+                                ],
+                                "s2glist": null
+                            },
+                            {
+                                "list": [
+                                    2312,
+                                    10,
+                                    9
+                                    
+                                ],
+                                "winpos": [
+                                    0
+                                ],
+                                "droplist": [
+                                   
+                                ],
+                                "s2glist": [{silverindex:0,goldenid:301}]
+                            },
+                            {
+                                "list": [
+                                    210,
+                                    3,
+                                    1208
+                                ],
+                                "winpos": [],
+                                "droplist": null,
+                                "s2glist": null
+                            },
+                            {
+                                "list": [
+                                    13,
+                                    3,
+                                    309
+                                ],
+                                "winpos": [],
+                                "droplist": null,
+                                "s2glist": null
+                            },
+                            {
+                                "list": [
+                                    9,
+                                    9,
+                                    12,
+                                    13,
+                                    3
+                                ],
+                                "winpos": [],
+                                "droplist": null,
+                                "s2glist": null
+                            }
+                        ],
+                        "win": 3000,
+                        "havewin": 0,
+                        "removelist": [
+                            {
+                                "iconid": 5,
+                                "winlines": 1,
+                                "wincount": [
+                                    1,
+                                    1,
+                                    0
                                 ]
                             }
                         ],

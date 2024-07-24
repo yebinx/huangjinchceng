@@ -413,6 +413,7 @@ export default class Cell extends Component {
             let {spriteFrame, color} = this.getSymbolBg(itemType, space, false);
             this.spSymbolBg.spriteFrame = spriteFrame;
             this.spSymbolBg.color = color; // 10 J Q 是用灰色底板变色的
+            if(space<2)space=2;
             this.createRandomSymbol(itemType, space)
             return 
         }

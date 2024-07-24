@@ -62,6 +62,9 @@ export class RandomSymbol extends Component {
     ]
 
     static New(prefab:any, parent:Node){
+        if(!prefab){
+            console.log("New");
+        }
         let nd = instantiate(prefab)
         nd.parent = parent
         return nd.getComponent(RandomSymbol)

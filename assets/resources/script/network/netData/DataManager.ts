@@ -32,6 +32,8 @@ export default class DataManager{
         this.betResult.norData();
         console.log("betResultComplete",this.betResult);
         //this.clearClassData();
+        let tid = this.convertId(11,2,3);
+        console.log("betResultComplete",tid);
    }
 
    public static clearClassData(){

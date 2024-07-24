@@ -18,23 +18,28 @@ export default class CardListEle{
             let tdata = nIconAreaDistri[i];
             let trowcount = tdata.nMaxColCount.value;
             let frameType = tdata.isGold.value;
-            let tid = DataManager.convertId(tdata.iType.value,frameType,trowcount);
+            let tsId = tdata.iType.value;
+            let tid = DataManager.convertId(tsId,frameType,trowcount);
             this.list.push(tid);
             this.addSourceListEle(tid,trowcount,frameType);
             tdata = nRemoveIcon[i];
-            trowcount = tdata.nMaxColCount.value;
-            frameType = tdata.isGold.value;
-            tid = DataManager.convertId(tdata.iType.value,frameType,trowcount);
-            if(tdata.iType.value>0 || frameType>0){
+            // trowcount = tdata.nMaxColCount.value;
+            // frameType = tdata.isGold.value;
+            //tid = DataManager.convertId(tdata.iType.value,frameType,trowcount);
+            if(tdata.iType.value>0 || tdata.isGold.value>0){
                 this.winpos.push(i-startPos);
                 if(this.isRemoveEle(frameType)){
-                    this.removeList.push({row:i-startPos,rowCount:trowcount,id:tid,col:i,norId:DataManager.convertToNorId(tdata.iType.value)});
+                    this.removeList.push({row:i-startPos,rowCount:trowcount,id:tid,col:i,norId:DataManager.convertToNorId(tsId)});
                 }else{
                     if(frameType==1){
-                        let tgoldId = DataManager.convertId(tdata.iType.value,2,trowcount);
+                        let tgoldId = DataManager.convertId(tsId,2,trowcount);
+                        this.s2glist.push({goldenid:tgoldId,silverindex:i-startPos});
+                    }else if(frameType==2){
+                        let tgoldId = (trowcount*100)+1;//转百搭
                         this.s2glist.push({goldenid:tgoldId,silverindex:i-startPos});
                     }
                     console.log("win not remove",frameType,tid,0,i);
+
                 }
                 
                 console.log("win row "+0,"col "+i,tid);
