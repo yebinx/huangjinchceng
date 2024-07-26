@@ -34,6 +34,7 @@ export default class BetInfo{
 
     public setBetmultipleTypes(types=null){
         this.betinfo=[];
+        this.betadjust=[];
         if(types)this.betmultipleTypes=types;
         let ttypes = this.betmultipleTypes;
         let tbetid=0;
@@ -42,6 +43,7 @@ export default class BetInfo{
                 tbetid++;
                 let tele  = new BetinfoEle(tbetid,ttypes[i],h,this.base);
                 this.betinfo.push(tele);
+                this.betadjust.push(tbetid);
             }
         }
     }

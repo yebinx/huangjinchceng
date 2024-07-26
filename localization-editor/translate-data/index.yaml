@@ -33,42 +33,54 @@ items:
     value: ""
     type: 4
     isVariant: false
-    associations: []
+    associations:
+      - nodeUuid: c4JXH7fBNNR5TwFpnnmVaz
+      - nodeUuid: c4JXH7fBNNR5TwFpnnmVaz
     _variants: []
   shared_btn_sound:
     key: shared_btn_sound
     value: ""
     type: 4
     isVariant: false
-    associations: []
+    associations:
+      - nodeUuid: c4JXH7fBNNR5TwFpnnmVaz
+      - nodeUuid: c4JXH7fBNNR5TwFpnnmVaz
     _variants: []
   shared_btn_rate:
     key: shared_btn_rate
     value: ""
     type: 4
     isVariant: false
-    associations: []
+    associations:
+      - nodeUuid: c4JXH7fBNNR5TwFpnnmVaz
+      - nodeUuid: c4JXH7fBNNR5TwFpnnmVaz
     _variants: []
   shared_btn_rule:
     key: shared_btn_rule
     value: ""
     type: 4
     isVariant: false
-    associations: []
+    associations:
+      - nodeUuid: c4JXH7fBNNR5TwFpnnmVaz
+      - nodeUuid: c4JXH7fBNNR5TwFpnnmVaz
     _variants: []
   shared_btn_history:
     key: shared_btn_history
     value: ""
     type: 4
     isVariant: false
-    associations: []
+    associations:
+      - nodeUuid: c4JXH7fBNNR5TwFpnnmVaz
+      - nodeUuid: c4JXH7fBNNR5TwFpnnmVaz
     _variants: []
   shared_btn_close:
     key: shared_btn_close
     value: ""
     type: 4
     isVariant: false
-    associations: []
+    associations:
+      - nodeUuid: c4JXH7fBNNR5TwFpnnmVaz
+      - nodeUuid: c4JXH7fBNNR5TwFpnnmVaz
     _variants: []
   shared_loading:
     key: shared_loading
@@ -1271,9 +1283,6 @@ items:
     type: 2
     isVariant: false
     associations:
-      - sceneUuid: 17780e82-f459-4593-bd8a-ef08414e038e
-        nodeUuid: e8bUGQp/9CQLKxBfYW8NQ/
-        reference: 17780e82-f459-4593-bd8a-ef08414e038e
       - sceneUuid: 17780e82-f459-4593-bd8a-ef08414e038e
         nodeUuid: e8bUGQp/9CQLKxBfYW8NQ/
         reference: 17780e82-f459-4593-bd8a-ef08414e038e

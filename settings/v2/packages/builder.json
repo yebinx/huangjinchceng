@@ -39,16 +39,6 @@
       }
     }
   },
-  "splash-setting": {
-    "displayRatio": 1,
-    "totalTime": 500,
-    "watermarkLocation": "default",
-    "autoFit": true,
-    "logo": {
-      "type": "custom",
-      "image": "C:\\ProgramData\\cocos\\editors\\Creator\\3.7.4\\resources\\app.asar.unpacked\\builtin\\builder\\static\\logo\\logo.png"
-    }
-  },
   "bundleConfig": {
     "custom": {
       "auto_e8ckM/YcFIS6vJ1yxNXobo": {

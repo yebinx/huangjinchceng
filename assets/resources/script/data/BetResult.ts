@@ -24,7 +24,8 @@ export default class BetResult{
     private setOutData(CMD_S_GameEnd){
         this.balance = CMD_S_GameEnd.llUserTotalScore.value;
         this.freetimes = CMD_S_GameEnd.nCurRoundFreeCount.value;
-        this.wintotal = CMD_S_GameEnd.lNormalTotalAwardGold.value;
+        let ttotal = CMD_S_GameEnd.lNormalTotalAwardGold.value;
+        if(ttotal>this.wintotal)this.wintotal = ttotal;
         this.bet = DataManager.currBet;
     }
 

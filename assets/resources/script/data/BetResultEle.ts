@@ -14,7 +14,7 @@ export default class BetResultEle{
     public createtime:number=0;
     constructor(CMD_S_GameEnd){
         this.win = CMD_S_GameEnd.lAwardGold.value;
-        this.havewin = CMD_S_GameEnd.lAwardGold.value;
+        this.havewin = CMD_S_GameEnd.lNormalTotalAwardGold.value;
         this.balance = CMD_S_GameEnd.llUserTotalScore.value;
         this.addCardList(CMD_S_GameEnd);
         this.setRmoveListData();

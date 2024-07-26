@@ -332,7 +332,9 @@ export class GameData extends GameResultData{
     // 获取投注金币
     getBetAllLine(){return this.getBaseBet() * TOTAL_LINE;}
     // 获取一条线的下注分
-    getBaseBet(){return this.szBaseBet[this.baseBetIdx] * this.szMultiple[this.multipleIdx];}
+    getBaseBet(){
+        return this.szBaseBet[this.baseBetIdx] * this.szMultiple[this.multipleIdx];
+    }
 
     // 购买免费游戏
     getBuyBonusGameNeed(){return this.getBetAllLine() * BONUS_BUY_MULTIPLE;}

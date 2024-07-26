@@ -240,8 +240,8 @@ export class GameCtrl extends Component {
         })
 
         this.multipleLine.setLine(ConfigMethod.getLines(defaultSymbol, defaultSymbol.length));
-
-        this.emitter.emit(EMIT_SCORE_BET, {totalBet: SharedConfig.ScoreFormat(this.gameData.getBetAllLine()), isChange: true, isAction:false} as I_EMIT_SCORE_BET);
+        let tdata = {totalBet: SharedConfig.ScoreFormat(this.gameData.getBetAllLine()), isChange: true, isAction:false} as I_EMIT_SCORE_BET;
+        this.emitter.emit(EMIT_SCORE_BET,tdata );
         this.emitter.emit(EMIT_SCORE_TOTAL, SharedConfig.ScoreFormat(this.gameData.getBalance()));
         this.emitter.emit(EMIT_VIEW_RESIZE_FLUSH);
     }
