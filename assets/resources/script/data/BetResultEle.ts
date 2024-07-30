@@ -1,3 +1,4 @@
+import { IconGrid } from "../../../goldencity/proto/base";
 import DataManager from "../network/netData/DataManager";
 import CardListEle from "./CardListEle";
 
@@ -62,7 +63,7 @@ export default class BetResultEle{
                             let tgoldId = DataManager.convertId(tsId,2,trowcount);
                             tele.s2glist.push({goldenid:tgoldId,silverindex:row-1});
                         }else if(frameType==2){
-                            let tgoldId = (trowcount*100)+1;//转百搭
+                            let tgoldId = (trowcount*IconGrid.SPACEBASE)+1;//转百搭
                             tele.s2glist.push({goldenid:tgoldId,silverindex:row-1});
                         }
                     } 

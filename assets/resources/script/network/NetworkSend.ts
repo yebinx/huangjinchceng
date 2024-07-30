@@ -1,6 +1,7 @@
 
 
 import { TProtoGoldenCityBetRsp } from "../../../goldencity/proto/v1.goldencity.bet";
+import { TOTAL_LINE } from "../../../goldencity/script/config/game_config";
 import { Network } from "./Network";
 import DataManager from "./netData/DataManager";
 import EventCenter from "./netData/EventCenter";
@@ -31,9 +32,10 @@ export class NetworkSend
     }
 
     public sendStartSpin(betConfig) {
-        console.log("sendStartSpin: ", betConfig);
         let cmddata = new mssCmd.CMD_C_GAME_START();
-        cmddata.nBet.value = betConfig.mTotalAmount;
+        let tbet = betConfig.mTotalAmount/TOTAL_LINE;
+        cmddata.nBet.value =tbet;
+        console.log("sendStartSpin: ", cmddata);
         DataManager.currBet = betConfig.mTotalAmount;
         Network.Instance.SendCmd(RoomMainCmd.MDM_GF_GAME, mssCmd.SUB_C_START, cmddata);
         DataManager.clearClassData();

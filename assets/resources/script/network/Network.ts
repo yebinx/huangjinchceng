@@ -117,6 +117,9 @@ export class Network
         let pack = new CSPacket(MainCmdID, SubCmdID, Body);
         pack.setSize();
         let buf = pack.toData();
+        if(!(MainCmdID==KN_CMD.MDM_KN_COMMAND && SubCmdID==KN_CMD.SUB_KN_DETECT_SOCKET)){
+            console.log("sss",pack);
+        }
         if (this.mWebSocket && this.mWebSocket.readyState === WebSocket.OPEN) {
             this.mWebSocket.send(buf.buffer);
         } else {
