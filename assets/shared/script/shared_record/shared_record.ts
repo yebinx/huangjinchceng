@@ -89,6 +89,7 @@ export class SharedRecord extends Component {
 
     start() {
         // this.test()
+        //this.hideLoadingTips();
     }
 
     protected startAfter(){

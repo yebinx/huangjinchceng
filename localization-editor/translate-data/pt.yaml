@@ -949,7 +949,7 @@ items:
     _variants: []
   game_rule_symbol:
     key: game_rule_symbol
-    value: Coringa multi-linha
+    value: Wilds a caminho
     type: 4
     isVariant: false
     associations: []

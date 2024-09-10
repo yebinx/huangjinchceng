@@ -208,7 +208,7 @@ export class GameOpenUi extends Component{
         sharedRecord.setGameRecord(this.gameData.getGameRecord())
         sharedRecord.setEmitter(this.emitter);
         sharedRecord.register();
-        sharedRecord.showLoadingTips();
+        //sharedRecord.showLoadingTips();
         sharedRecord.setDestroyCallback(()=>{
             this.gameData.getGameOpenUiStatus().cancelRecord();
         })
