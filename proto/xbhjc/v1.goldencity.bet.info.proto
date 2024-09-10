@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option go_package="GoldenCity/gin;GoldenCitygin";
+
+message TGoldenCityBetInfoReq {
+    string      token       = 1;
+}
+  
+message BetInfo {
+    int32 betid        = 1; // 下注ID
+    int32 betsize      = 2; // 投注大小
+    int32 betmultiple  = 3; // 投注倍数
+    int32 betbase      = 4; // 基础投注
+}
+
+message TGoldenCityBetInfoRsp {
+    repeated  BetInfo betinfo = 1;   // 下注组合
+    repeated  int32   betadjust = 2; // 加减组合
+    repeated  int32   buyfreebetid = 3; // 购买免费倍数
+    int32 defaultbetid = 4; // 默认下注ID
+}

@@ -1,0 +1,1556 @@
+locale: zh-Hans-CN
+items:
+  shared_title_start_game:
+    key: shared_title_start_game
+    value: 开始
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_loading_tips_do_login:
+    key: shared_loading_tips_do_login
+    value: "正在登录中 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_loading_tips:
+    key: shared_loading_tips
+    value: "正在努力加载中 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_login_fail:
+    key: shared_login_fail
+    value: "登录失败 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_exit:
+    key: shared_btn_exit
+    value: 退出
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_sound:
+    key: shared_btn_sound
+    value: 声音
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_rate:
+    key: shared_btn_rate
+    value: 赔付表
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_rule:
+    key: shared_btn_rule
+    value: 规则
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_history:
+    key: shared_btn_history
+    value: 历史
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_close:
+    key: shared_btn_close
+    value: 关闭
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_loading:
+    key: shared_loading
+    value: 正在加载
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_retry:
+    key: shared_btn_retry
+    value: 重试
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_start:
+    key: shared_record_start
+    value: 开始
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_end:
+    key: shared_record_end
+    value: 结束
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_type_title:
+    key: shared_record_date_type_title
+    value: 选择日期范围
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_today:
+    key: shared_record_date_today
+    value: 今天
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_last_week:
+    key: shared_record_date_last_week
+    value: 最近 7 天
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_custom:
+    key: shared_record_date_custom
+    value: 自定
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_history_title:
+    key: shared_record_history_title
+    value: 历史记录
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_time:
+    key: shared_record_time
+    value: 时间
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_order_number:
+    key: shared_record_order_number
+    value: 交易单号
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_normal_play:
+    key: shared_record_normal_play
+    value: 普通旋转
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_title:
+    key: shared_setting_bet_title
+    value: 投注设置
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_base:
+    key: shared_setting_bet_base
+    value: 投注大小
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_multiple:
+    key: shared_setting_bet_multiple
+    value: 投注倍数
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_line:
+    key: shared_setting_bet_line
+    value: 基础投注
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_total:
+    key: shared_setting_bet_total
+    value: 投注总额
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_info_tips:
+    key: shared_record_win_line_info_tips
+    value: 投注大小 x 投注倍数 x 符号赔付值 x 中奖路 x 奖金倍数
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule:
+    key: shared_game_rule
+    value: 游戏规则
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_auto_start_title:
+    key: shared_setting_auto_start_title
+    value: 自动旋转
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_auto_start_count:
+    key: shared_setting_auto_start_count
+    value: 自动旋转次数
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_max_bet:
+    key: shared_setting_bet_max_bet
+    value: 最大投注
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_min_bet:
+    key: shared_setting_bet_min_bet
+    value: 最小投注
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_success:
+    key: shared_btn_success
+    value: 确定
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_not_history_record_tips:
+    key: shared_record_not_history_record_tips
+    value: 没有历史记录
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_bet:
+    key: shared_record_bet
+    value: 投注
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win:
+    key: shared_record_win
+    value: 盈利
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_total_record_n:
+    key: shared_record_total_record_n
+    value: "{1} 条记录"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_round_count:
+    key: shared_round_count
+    value: 第{1}回合
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_balance:
+    key: shared_record_balance
+    value: 余额
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_reward_multiple:
+    key: shared_record_reward_multiple
+    value: 奖金倍数
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_round_detail_not_reward:
+    key: shared_record_round_detail_not_reward
+    value: 无中奖组合
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_state:
+    key: shared_record_win_state
+    value: 赢奖情况
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_2:
+    key: shared_record_win_line_2
+    value: 双星连珠
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_3:
+    key: shared_record_win_line_3
+    value: 三星连珠
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_4:
+    key: shared_record_win_line_4
+    value: 四星连珠
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_5:
+    key: shared_record_win_line_5
+    value: 五星连珠
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_6:
+    key: shared_record_win_line_6
+    value: 六星连珠
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_7:
+    key: shared_record_win_line_7
+    value: 七星连珠
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_8:
+    key: shared_record_win_line_8
+    value: 八星连珠
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_9:
+    key: shared_record_win_line_9
+    value: 九星连珠
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_free_bonus_n:
+    key: shared_record_free_bonus_n
+    value: "{1}次免费旋转"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_auto_start_start:
+    key: shared_setting_auto_start_start
+    value: 开始自动旋转
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_cash_money_bag:
+    key: shared_cash_money_bag
+    value: 现金钱包
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_request_fail_retry:
+    key: shared_request_fail_retry
+    value: 网络繁忙，正在重试... (第{1}次)
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_quick_on_tips:
+    key: shared_quick_on_tips
+    value: 极速旋转已开启
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_quick_off_tips:
+    key: shared_quick_off_tips
+    value: 极速旋转已关闭
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_free_play:
+    key: shared_record_free_play
+    value: 免费旋转:{1}/{2}
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_round_date:
+    key: shared_record_round_date
+    value: "{1}/{2}/{3}  {4}:{5} (GTM+8:00)"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_n:
+    key: shared_record_win_line_n
+    value: "{1}条中奖路"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_money_symbol:
+    key: shared_money_symbol
+    value: ¥
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_range:
+    key: shared_record_date_range
+    value: "{1}/{2}/{3}  -  {4}/{5}/{6}"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_note_title_transaction_fail:
+    key: shared_note_title_transaction_fail
+    value: 未能成功交易
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_insufficient_balance_tips:
+    key: shared_insufficient_balance_tips
+    value: 余额不足
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_unknow_error_try_again:
+    key: shared_unknow_error_try_again
+    value: 未知错误，请重试。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_tips:
+    key: shared_title_tips
+    value: 提示
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_note_heart_beat_time_out:
+    key: shared_note_heart_beat_time_out
+    value: 连接服务器超时，是否重新加载。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_exit_game:
+    key: shared_title_exit_game
+    value: 退出游戏
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_reload:
+    key: shared_title_reload
+    value: 重新加载
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_exit_game_tips_content:
+    key: shared_exit_game_tips_content
+    value: 您确定要退出游戏？
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_cancel:
+    key: shared_title_cancel
+    value: 取消
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_symbol_name_scatter:
+    key: shared_symbol_name_scatter
+    value: "夺宝符号 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_symbol_name_wild:
+    key: shared_symbol_name_wild
+    value: "百搭符号 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  "'------------------------------------------------------’":
+    key: "'------------------------------------------------------’"
+    value: "'------------------------------------------------------’"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_main_game:
+    key: shared_main_game
+    value: "主游戏 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start:
+    key: shared_btn_start
+    value: 旋转按钮
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start_info1:
+    key: shared_btn_start_info1
+    value: 单击后可在当前基础投注、投注大小和投注倍数下开始游戏。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start_info2:
+    key: shared_btn_start_info2
+    value: 旋转过程中单击按钮或游戏区可以马上停止当前旋转。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start_info3:
+    key: shared_btn_start_info3
+    value: 按下空格键，使用当前的基础投注、投注大小和投注倍数进行旋转。（仅适用于桌面版）
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start_info4:
+    key: shared_btn_start_info4
+    value: 按住空格键，将持续进行旋转，直到松开空格键。（仅适用于桌面版）
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_stop:
+    key: shared_btn_stop
+    value: 停止按钮
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_stop_info1:
+    key: shared_btn_stop_info1
+    value: 单击按钮停止旋转。在自动游戏模式，剩余旋转次数会显示在按钮中。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_minus:
+    key: shared_btn_minus
+    value: 减少
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_minus_info1:
+    key: shared_btn_minus_info1
+    value: 点击减少投注金额。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_add:
+    key: shared_btn_add
+    value: 增加
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_add_info1:
+    key: shared_btn_add_info1
+    value: 点击增加投注金额
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_money_bag_balance:
+    key: shared_money_bag_balance
+    value: 钱包余额
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_money_bag_balance_info1:
+    key: shared_money_bag_balance_info1
+    value: 点击显示拥有钱包的余额。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money:
+    key: shared_bet_money
+    value: 投注金额
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info1:
+    key: shared_bet_money_info1
+    value: 点击显示投注选项。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info2:
+    key: shared_bet_money_info2
+    value: 投注大小：拖动以选择投注大小。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info3:
+    key: shared_bet_money_info3
+    value: 投注倍数：拖动以选择投注倍数。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info4:
+    key: shared_bet_money_info4
+    value: 投注总额：拖动以选择投注金额。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info5:
+    key: shared_bet_money_info5
+    value: 最大投注：点击按钮可以把投注大小、投注倍数的数值调到最大。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_prize_money:
+    key: shared_prize_money
+    value: 奖金金额
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_prize_money_info1:
+    key: shared_prize_money_info1
+    value: 点击显示游戏历史。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_auto_start_info1:
+    key: shared_btn_auto_start_info1
+    value: 自动旋转可以根据选的次数进行自动游戏。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_auto_start_info2:
+    key: shared_btn_auto_start_info2
+    value: 点击数值以选择自动旋转的次数。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_snape:
+    key: shared_btn_snape
+    value: 极速旋转
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_snape_info1:
+    key: shared_btn_snape_info1
+    value: 点击启动或停止极速旋转，启动极速旋转将减少主游戏中卷轴旋转的持续时间。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_menu:
+    key: shared_btn_menu
+    value: 更多设置
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_menu_info1:
+    key: shared_btn_menu_info1
+    value: 点击访问其他设置。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_audio_info1:
+    key: shared_btn_audio_info1
+    value: 点击打开或关闭游戏声音。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_rate_info1:
+    key: shared_btn_rate_info1
+    value: 显示中奖组合以及赔付表。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_rule_info1:
+    key: shared_btn_rule_info1
+    value: 显示游戏规则和按键功能。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_history_info1:
+    key: shared_btn_history_info1
+    value: 显示游戏历史记录详情。下滑到页面底部可加载更多记录。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_history_info2:
+    key: shared_btn_history_info2
+    value: 点击          选择日期范围，显示相应的历史记录。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_close_info1:
+    key: shared_btn_close_info1
+    value: 点击回到主游戏。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_bonus_multiple:
+    key: shared_game_rule_bonus_multiple
+    value: 奖金翻倍
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_free_game:
+    key: shared_game_rule_free_game
+    value: 免费旋转模式
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rate_line_example:
+    key: shared_game_rate_line_example
+    value: "参考以上例子 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rate_line_example_2:
+    key: shared_game_rate_line_example_2
+    value: "本例中的总赢奖 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_bet_size_introduce:
+    key: shared_game_bet_size_introduce
+    value: "投注大小可以在“投注大小”选项中设定。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_bet_multiple_introduce:
+    key: shared_game_bet_multiple_introduce
+    value: "投注倍数可以在“投注倍数”选项中设定。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_total_bet_introduce:
+    key: shared_game_total_bet_introduce
+    value: "投注总额可以在“投注总额”选项中设定。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_money_bag_introduce:
+    key: shared_game_money_bag_introduce
+    value: "“现金钱包”用来显示下注者可用的现金余额。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_auto_spin_introduce:
+    key: shared_game_auto_spin_introduce
+    value: “自动旋转”可以根据玩家所选择的回合数量自动进行游戏。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_other_info:
+    key: shared_game_rule_other_info
+    value: "附加信息 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_other_info_1:
+    key: shared_game_rule_other_info_1
+    value: "如遇任何机械故障，所有游戏及奖金（派彩）一律作废。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_other_info_2:
+    key: shared_game_rule_other_info_2
+    value: "任何因游戏结果所产生的争议，均以游戏历史页面中所显示的记录为最终依据。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  buy_bonus_game:
+    key: buy_bonus_game
+    value: 购买奖金游戏
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  "'-------------------'":
+    key: "'-------------------'"
+    value: "'-------------'"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_bonus_multiple_1:
+    key: game_rule_bonus_multiple_1
+    value: 任何主游戏旋转开始时，奖金倍数为x1。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_bonus_multiple_2:
+    key: game_rule_bonus_multiple_2
+    value: 若在任何旋转期间，转轴上出现一个或多个赢奖符号，在奖金被支付并且新符号跌落之后，奖金倍数将增加1。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_free_game_1:
+    key: game_rule_free_game_1
+    value: 当4个夺宝符号出现在转轴的任意位置时，免费旋转模式将被触发并获得10次免费旋转。每个额外的夺宝符号都将触发多2次的免费旋转。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_free_game_2:
+    key: game_rule_free_game_2
+    value: 免费游戏模式开始时，奖金乘数为x2。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_free_game_3:
+    key: game_rule_free_game_3
+    value: 若在任何免费旋转期间，转轴上出现一个或多个赢奖符号，在奖金被支付并且新符号跌落之后，奖金倍数将增加2。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_free_game_4:
+    key: game_rule_free_game_4
+    value: 免费旋转可以被重复触发。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_symbol:
+    key: game_rule_symbol
+    value: 多路连消百搭
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_symbol_1:
+    key: game_rule_symbol_1
+    value: "在任何旋转期间，第2、第3、第4和/或第5转轴上，那些占据2至4个符号位置的符号（不包括百搭符号和夺宝符号），将有可能被银框所包围。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_symbol_2:
+    key: game_rule_symbol_2
+    value: "在新符号跌落后的每一轮旋转中，上一轮赢奖中所涉及的任何银框符号将被转换为一个随机并带有金框的符号（百搭符号和夺宝符号除外）。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_symbol_3:
+    key: game_rule_symbol_3
+    value: "在新符号跌落后的每一轮旋转中，上一轮赢奖中所涉及的任何金框符号将被转换为百搭符号。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_title:
+    key: game_rate_line_info_title
+    value: "2,025至32,400路 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_1:
+    key: game_rate_line_info_1
+    value: "中奖路奖金按照从最左至右卷轴的顺序派发。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_2:
+    key: game_rate_line_info_2
+    value: "中奖路的奖金计算方式是按照从卷轴的最左边到最右边，每个赢奖符号相邻的数目乘以该符号的中奖路数目。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_3:
+    key: game_rate_line_info_3
+    value: "赢奖符号的赔付是由该符号的赔付值乘以中奖路的数目所得。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_4:
+    key: game_rate_line_info_4
+    value: "每轮游戏结束并发放奖金后，所有赢奖符号都将爆炸消除，让其上方的符号向下跌落以进行新一轮的旋转。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_5:
+    key: game_rate_line_info_5
+    value: "额外的中奖组合都将计入每次旋转的赢奖中，直到没有其他中奖组合。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_6:
+    key: game_rate_line_info_6
+    value: "所有赢奖以现金显示。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_symbol_value:
+    key: game_rate_symbol_value
+    value: "符号赔付值 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_symbol_info_1:
+    key: game_rate_symbol_info_1
+    value: "第2、第3、第4和/或第5转轴上的一些符号将有可能占据2至4个符号位置，在计算赢奖时，这些符号将计为单个符号。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  symbol_wild_info:
+    key: symbol_wild_info
+    value: "百搭符号可替代除夺宝符号外的所有符号。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_symbol_info_3:
+    key: game_rate_symbol_info_3
+    value: "百搭符号只出现在第2，第3，第4，和第5转轴上。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1:
+    key: game_rule_title_1
+    value: "寻宝黄金城 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_1:
+    key: game_rule_title_1_1
+    value: "寻宝黄金城是一个6轴5行的视频老虎机游戏（在第2、第3、第4和第5转轴的顶部设有一个附加轴），编入了多路连消百搭，并且在主游戏及免费旋转中均编\
+      入了递增式奖金倍数。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_2:
+    key: game_rule_title_1_2
+    value: "游戏共有2,025 - 32,400个中奖路并规定了{1}条基础投注，{2}到{3}的投注倍数和{4}到{5}的投注大小。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_7:
+    key: game_rule_title_1_7
+    value: "中奖组合和奖金派发是根据“赔付表”进行的。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_8:
+    key: game_rule_title_1_8
+    value: "一条中奖路所得的奖励等同于显示在“赔付表”上的符号赔付值乘以投注大小和投注倍数。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_12:
+    key: game_rule_title_1_12
+    value: "不同中奖路上的奖金会被叠加。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_19:
+    key: game_rule_title_1_19
+    value: "免费旋转模式中投注大小和投注倍数和触发免费旋转模式时的参数保持一致。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  symbol_scatter_info:
+    key: symbol_scatter_info
+    value: "3个夺宝符号可触发免费旋转。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  FeatureBuyDesc1:
+    key: FeatureBuyDesc1
+    value: 点击“购买奖金游戏”按钮打开奖金游戏菜单。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  FeatureBuyDesc2:
+    key: FeatureBuyDesc2
+    value: 点击“开始”按钮，以奖金游戏菜单中所显示的价格购买免费旋转模式。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_9:
+    key: game_rule_title_1_9
+    value: "中奖路奖金按照从最左至右卷轴的顺序派发。 "
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_10:
+    key: game_rule_title_1_10
+    value: "中奖路的奖金计算方式是按照从卷轴的最左边到最右边，每个赢奖符号相邻的数目乘以该符号的中奖路数目。 "
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_11:
+    key: game_rule_title_1_11
+    value: "赢奖符号的赔付是由该符号的赔付值乘以中奖路的数目所得。 "
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_13:
+    key: game_rule_title_1_13
+    value: "每轮游戏结束并发放奖金后，所有赢奖符号都将爆炸消除，让其上方的符号向下跌落以进行新一轮的旋转。 "
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_14:
+    key: game_rule_title_1_14
+    value: "额外的中奖组合都将计入每次旋转的赢奖中，直到没有其他中奖组合。 "
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_15:
+    key: game_rule_title_1_15
+    value: "所有赢奖以现金显示。 "
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  ScatterDescription:
+    key: ScatterDescription
+    value: 4个或更多夺宝符号将触发免费旋转模式。
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_NetworkErrorMessage:
+    key: shared_NetworkErrorMessage
+    value: 未能连接到服务器，请检查您的网络或重试。
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_ServerErrorMessage:
+    key: shared_ServerErrorMessage
+    value: 服务器请求失败。
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_AnimationTips:
+    key: shared_AnimationTips
+    value: 亲，请稍安勿躁！第一次加载可能略微需要一点时间哦！|在Safari和Chrome享受更震撼的游戏体验吧！|关闭闲置网页，给我多点空间，还你更多惊喜！|高清游戏资源可能略多，建议在WIFI环境下预加载！|加载过的游戏会在浏览器保留缓存，下一次加载更流畅！|使用新版本的手机系统可以获得最佳的游戏体验！
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_auto_start:
+    key: shared_btn_auto_start
+    value: 自动旋转
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_account_login:
+    key: shared_account_login
+    value: 正在账号认证
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_load_shared:
+    key: shared_load_shared
+    value: 正在加载基础资源
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_load_game_bundle:
+    key: shared_load_game_bundle
+    value: 正在加载游戏资源
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_load_user_info:
+    key: shared_load_user_info
+    value: 正在加载玩家信息
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_login_fail_net_error_title:
+    key: shared_login_fail_net_error_title
+    value: 网络异常
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_login_fail_net_error_content:
+    key: shared_login_fail_net_error_content
+    value: 连接服务器失败
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_login_fail_account_error_title:
+    key: shared_login_fail_account_error_title
+    value: 账号异常
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_login_fail_account_error_content:
+    key: shared_login_fail_account_error_content
+    value: 账号信息读取失败
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  6dba1c58-e689-4d86-be20-cf5d17f823f7:
+    key: 6dba1c58-e689-4d86-be20-cf5d17f823f7
+    value: 6dba1c58-e689-4d86-be20-cf5d17f823f7
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  175cad75-0579-4844-9c65-7dfac28497cd:
+    key: 175cad75-0579-4844-9c65-7dfac28497cd
+    value: 175cad75-0579-4844-9c65-7dfac28497cd
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  30b1a184-c673-45d9-932a-5b35810a472f:
+    key: 30b1a184-c673-45d9-932a-5b35810a472f
+    value: 30b1a184-c673-45d9-932a-5b35810a472f
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  1904d2ad-3ddb-40c0-8d1b-8ba37bca0359:
+    key: 1904d2ad-3ddb-40c0-8d1b-8ba37bca0359
+    value: 1904d2ad-3ddb-40c0-8d1b-8ba37bca0359
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  25ffcee9-6336-4876-8e0e-02a01fff66ba:
+    key: 25ffcee9-6336-4876-8e0e-02a01fff66ba
+    value: 25ffcee9-6336-4876-8e0e-02a01fff66ba
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  2f7e1623-3b28-47ff-9505-68f8e38c7cf1:
+    key: 2f7e1623-3b28-47ff-9505-68f8e38c7cf1
+    value: 2f7e1623-3b28-47ff-9505-68f8e38c7cf1
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  d64bcb62-f73b-44a7-923f-aa7b70c1c3c1:
+    key: d64bcb62-f73b-44a7-923f-aa7b70c1c3c1
+    value: d64bcb62-f73b-44a7-923f-aa7b70c1c3c1
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  d1ff2f6b-00ce-4403-8740-819b836621e8:
+    key: d1ff2f6b-00ce-4403-8740-819b836621e8
+    value: d1ff2f6b-00ce-4403-8740-819b836621e8
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  d3479ce7-8026-4f24-bd18-c546fe31abb5:
+    key: d3479ce7-8026-4f24-bd18-c546fe31abb5
+    value: d3479ce7-8026-4f24-bd18-c546fe31abb5
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  35f5c60a-9225-432f-a325-769a88a0980d:
+    key: 35f5c60a-9225-432f-a325-769a88a0980d
+    value: 35f5c60a-9225-432f-a325-769a88a0980d
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  a05d8205-7edf-465d-ad24-3597977dd2a6:
+    key: a05d8205-7edf-465d-ad24-3597977dd2a6
+    value: a05d8205-7edf-465d-ad24-3597977dd2a6
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  adaf6991-10f9-4b8a-9c58-35b54f107597:
+    key: adaf6991-10f9-4b8a-9c58-35b54f107597
+    value: adaf6991-10f9-4b8a-9c58-35b54f107597
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  7ab7758c-cbc4-411f-9db0-08aad5585f24:
+    key: 7ab7758c-cbc4-411f-9db0-08aad5585f24
+    value: 7ab7758c-cbc4-411f-9db0-08aad5585f24
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  5e6ab2d5-27f2-4de3-9d6d-54410fa65c2b:
+    key: 5e6ab2d5-27f2-4de3-9d6d-54410fa65c2b
+    value: 5e6ab2d5-27f2-4de3-9d6d-54410fa65c2b
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  018ccf7b-ab87-4f8a-871c-4964c7d0edb7:
+    key: 018ccf7b-ab87-4f8a-871c-4964c7d0edb7
+    value: 018ccf7b-ab87-4f8a-871c-4964c7d0edb7
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  05c8b507-cd9d-4ee5-acb0-655ae6268136:
+    key: 05c8b507-cd9d-4ee5-acb0-655ae6268136
+    value: 05c8b507-cd9d-4ee5-acb0-655ae6268136
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  54d599ed-80ca-4ae0-94bf-4584ff0da2a1:
+    key: 54d599ed-80ca-4ae0-94bf-4584ff0da2a1
+    value: 54d599ed-80ca-4ae0-94bf-4584ff0da2a1
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  9bf21328-a69f-478b-beed-cc00006e56e4:
+    key: 9bf21328-a69f-478b-beed-cc00006e56e4
+    value: 9bf21328-a69f-478b-beed-cc00006e56e4
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  970afe9a-ee30-4eda-8e7c-c156dcf8ff3c:
+    key: 970afe9a-ee30-4eda-8e7c-c156dcf8ff3c
+    value: 970afe9a-ee30-4eda-8e7c-c156dcf8ff3c
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  1da96208-f4f1-4dcd-b7b3-44622767341a:
+    key: 1da96208-f4f1-4dcd-b7b3-44622767341a
+    value: 1da96208-f4f1-4dcd-b7b3-44622767341a
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  5de63811-d3c7-426d-a8ce-c0396d4784a6:
+    key: 5de63811-d3c7-426d-a8ce-c0396d4784a6
+    value: 5de63811-d3c7-426d-a8ce-c0396d4784a6
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  7e249902-c2ee-4eed-8617-c61a3c847e3f:
+    key: 7e249902-c2ee-4eed-8617-c61a3c847e3f
+    value: 7e249902-c2ee-4eed-8617-c61a3c847e3f
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  51628e84-66f3-4d31-94ed-2da2a519e2a3:
+    key: 51628e84-66f3-4d31-94ed-2da2a519e2a3
+    value: 51628e84-66f3-4d31-94ed-2da2a519e2a3
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  ddf6b79f-4dc2-4b03-b3fa-7e3d5438a025:
+    key: ddf6b79f-4dc2-4b03-b3fa-7e3d5438a025
+    value: ddf6b79f-4dc2-4b03-b3fa-7e3d5438a025
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  9882c666-bf52-4734-a388-57cbd529db49:
+    key: 9882c666-bf52-4734-a388-57cbd529db49
+    value: 9882c666-bf52-4734-a388-57cbd529db49
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  4d4d338a-179e-4702-af27-33154a820ed3:
+    key: 4d4d338a-179e-4702-af27-33154a820ed3
+    value: 4d4d338a-179e-4702-af27-33154a820ed3
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  1b6128d8-41be-4e4c-88c9-8a9805923483:
+    key: 1b6128d8-41be-4e4c-88c9-8a9805923483
+    value: 1b6128d8-41be-4e4c-88c9-8a9805923483
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  c2696758-d172-4a87-9585-40b0d5e79b0b:
+    key: c2696758-d172-4a87-9585-40b0d5e79b0b
+    value: c2696758-d172-4a87-9585-40b0d5e79b0b
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  2ff6b665-50f9-4adb-b925-65cf4239676c:
+    key: 2ff6b665-50f9-4adb-b925-65cf4239676c
+    value: 2ff6b665-50f9-4adb-b925-65cf4239676c
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  02daecaa-e8ca-4be2-ad74-564e7e9c431e:
+    key: 02daecaa-e8ca-4be2-ad74-564e7e9c431e
+    value: 02daecaa-e8ca-4be2-ad74-564e7e9c431e
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  130a7abb-7c37-44f3-bf99-9b4ad71b1b42:
+    key: 130a7abb-7c37-44f3-bf99-9b4ad71b1b42
+    value: 130a7abb-7c37-44f3-bf99-9b4ad71b1b42
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  a0f65d6e-2fe9-41f5-9e44-d38b685e8d82:
+    key: a0f65d6e-2fe9-41f5-9e44-d38b685e8d82
+    value: a0f65d6e-2fe9-41f5-9e44-d38b685e8d82
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  023176e8-d2b9-4552-8e0a-12dd96bb17ae:
+    key: 023176e8-d2b9-4552-8e0a-12dd96bb17ae
+    value: 023176e8-d2b9-4552-8e0a-12dd96bb17ae
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  1a584a00-80b4-4913-9ef8-ee5467cfe7e9:
+    key: 1a584a00-80b4-4913-9ef8-ee5467cfe7e9
+    value: 1a584a00-80b4-4913-9ef8-ee5467cfe7e9
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  18c3b17d-c903-4e84-aa23-54d2b7af3438:
+    key: 18c3b17d-c903-4e84-aa23-54d2b7af3438
+    value: 18c3b17d-c903-4e84-aa23-54d2b7af3438
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  c9031208-b0b5-4dbf-946c-7514e56072a4:
+    key: c9031208-b0b5-4dbf-946c-7514e56072a4
+    value: c9031208-b0b5-4dbf-946c-7514e56072a4
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  47fc2a02-f800-499b-964e-1b170fb9f350:
+    key: 47fc2a02-f800-499b-964e-1b170fb9f350
+    value: 47fc2a02-f800-499b-964e-1b170fb9f350
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  d873b6ac-63ac-48bd-bdd1-47ca6b4d228d:
+    key: d873b6ac-63ac-48bd-bdd1-47ca6b4d228d
+    value: d873b6ac-63ac-48bd-bdd1-47ca6b4d228d
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  6204ef48-8dba-4f07-984a-c3231f3bf2e7:
+    key: 6204ef48-8dba-4f07-984a-c3231f3bf2e7
+    value: 6204ef48-8dba-4f07-984a-c3231f3bf2e7
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  b4cc7c6e-f6c2-44d8-bb23-d4ae0c0033eb:
+    key: b4cc7c6e-f6c2-44d8-bb23-d4ae0c0033eb
+    value: b4cc7c6e-f6c2-44d8-bb23-d4ae0c0033eb
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  6aeffcd5-2dee-4b37-9d18-d623873b09c9:
+    key: 6aeffcd5-2dee-4b37-9d18-d623873b09c9
+    value: 6aeffcd5-2dee-4b37-9d18-d623873b09c9
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  20df1aab-6e08-4bbc-8e64-96afa2854dd9:
+    key: 20df1aab-6e08-4bbc-8e64-96afa2854dd9
+    value: 20df1aab-6e08-4bbc-8e64-96afa2854dd9
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  4ce0714f-542e-440d-95a8-105d42141ebc:
+    key: 4ce0714f-542e-440d-95a8-105d42141ebc
+    value: 4ce0714f-542e-440d-95a8-105d42141ebc
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  c4c1da25-08e4-4f9a-a18a-ecd1a74b1dd1:
+    key: c4c1da25-08e4-4f9a-a18a-ecd1a74b1dd1
+    value: c4c1da25-08e4-4f9a-a18a-ecd1a74b1dd1
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  fcfe9cd4-6174-45b3-8c83-020bb4837b8b:
+    key: fcfe9cd4-6174-45b3-8c83-020bb4837b8b
+    value: fcfe9cd4-6174-45b3-8c83-020bb4837b8b
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  284a3251-8f10-43a7-bef9-bf73e6de734e:
+    key: 284a3251-8f10-43a7-bef9-bf73e6de734e
+    value: 284a3251-8f10-43a7-bef9-bf73e6de734e
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  2eddac33-f0e5-4e03-9dc6-f99ddf3bcb3e:
+    key: 2eddac33-f0e5-4e03-9dc6-f99ddf3bcb3e
+    value: 2eddac33-f0e5-4e03-9dc6-f99ddf3bcb3e
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  ea5df786-e084-4100-81ca-bd651b1dff4b:
+    key: ea5df786-e084-4100-81ca-bd651b1dff4b
+    value: ea5df786-e084-4100-81ca-bd651b1dff4b
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  836d5245-f89b-4e52-842a-70e072658a11:
+    key: 836d5245-f89b-4e52-842a-70e072658a11
+    value: 836d5245-f89b-4e52-842a-70e072658a11
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+languageConfig:
+  bcp47Tag: zh-Hans-CN
+  translateFinished: 485
+  translateTotal: 485
+  compileFinished: 0
+  compileTotal: 221

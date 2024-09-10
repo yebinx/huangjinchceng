@@ -1,0 +1,1521 @@
+locale: pt
+items:
+  shared_title_start_game:
+    key: shared_title_start_game
+    value: Começar
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_loading_tips_do_login:
+    key: shared_loading_tips_do_login
+    value: A iniciar sessão
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_exit:
+    key: shared_btn_exit
+    value: Sair
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_sound:
+    key: shared_btn_sound
+    value: Som
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_rate:
+    key: shared_btn_rate
+    value: Tabela de pagamentos
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_rule:
+    key: shared_btn_rule
+    value: Regras
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_history:
+    key: shared_btn_history
+    value: Histórico
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_close:
+    key: shared_btn_close
+    value: Fechar
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_loading:
+    key: shared_loading
+    value: A carregar
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_retry:
+    key: shared_btn_retry
+    value: Repetir
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_start:
+    key: shared_record_start
+    value: Iniciar
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_end:
+    key: shared_record_end
+    value: Terminar
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_type_title:
+    key: shared_record_date_type_title
+    value: Selecionar intervalo de datas
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_today:
+    key: shared_record_date_today
+    value: Hoje
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_last_week:
+    key: shared_record_date_last_week
+    value: Últimos 7 dias
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_custom:
+    key: shared_record_date_custom
+    value: Personalizado
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_history_title:
+    key: shared_record_history_title
+    value: Histórico do jogo
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_time:
+    key: shared_record_time
+    value: Tempo
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_order_number:
+    key: shared_record_order_number
+    value: Transação
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_normal_play:
+    key: shared_record_normal_play
+    value: Rodada normal
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_title:
+    key: shared_setting_bet_title
+    value: Opções de aposta
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_base:
+    key: shared_setting_bet_base
+    value: Aposta
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_multiple:
+    key: shared_setting_bet_multiple
+    value: Nível de aposta
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_total:
+    key: shared_setting_bet_total
+    value: Valor de aposta
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_info_tips:
+    key: shared_record_win_line_info_tips
+    value: Aposta x Nivel de aposta x Valores depagamento dos simbolos
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_auto_start_title:
+    key: shared_setting_auto_start_title
+    value: Rodada automática
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_auto_start_count:
+    key: shared_setting_auto_start_count
+    value: Nº rod. Automáticas
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_max_bet:
+    key: shared_setting_bet_max_bet
+    value: Aposta máxima
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_min_bet:
+    key: shared_setting_bet_min_bet
+    value: Aposta mínima
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_success:
+    key: shared_btn_success
+    value: Confirmar
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_not_history_record_tips:
+    key: shared_record_not_history_record_tips
+    value: Sem histórico do jogo
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_bet:
+    key: shared_record_bet
+    value: Aposta
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win:
+    key: shared_record_win
+    value: Lucro
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_total_record_n:
+    key: shared_record_total_record_n
+    value: "{1} Registos"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_balance:
+    key: shared_record_balance
+    value: Saldo
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_round_detail_not_reward:
+    key: shared_record_round_detail_not_reward
+    value: Sem combinação vencedora
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_auto_start_start:
+    key: shared_setting_auto_start_start
+    value: Começar Rodada automátical
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_cash_money_bag:
+    key: shared_cash_money_bag
+    value: Carteira de dinheiro
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_request_fail_retry:
+    key: shared_request_fail_retry
+    value: Falha ao iniciar sessão. O sistema está tentar reiniciar... ({1}.ª vez)
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_quick_on_tips:
+    key: shared_quick_on_tips
+    value: Rodada turbo ativada
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_quick_off_tips:
+    key: shared_quick_off_tips
+    value: Rodada turbo desativada
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_round_date:
+    key: shared_record_round_date
+    value: "{1}/{2}/{3}  {4}:{5} (GTM+8:00)"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_unknow_error_try_again:
+    key: shared_unknow_error_try_again
+    value: Ocorreu um erro desconhecido, tente novamente.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_exit_game:
+    key: shared_title_exit_game
+    value: Sair
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_exit_game_tips_content:
+    key: shared_exit_game_tips_content
+    value: Tem a certeza de que pretende sair?
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_cancel:
+    key: shared_title_cancel
+    value: Cancelar
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  "'------------------------------------------------------’":
+    key: "'------------------------------------------------------’"
+    value: ------------------------------------------------------'
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_main_game:
+    key: shared_main_game
+    value: Jogo principal
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start:
+    key: shared_btn_start
+    value: Rodar
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start_info1:
+    key: shared_btn_start_info1
+    value: Toque para começar a rodar com as definições atuais de Aposta de base,
+      Valor da aposta e Nível de aposta.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start_info2:
+    key: shared_btn_start_info2
+    value: Toque no botão ou na área de jogo durante uma rodada para parar os
+      cilindros.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start_info3:
+    key: shared_btn_start_info3
+    value: Prima a tecla <Barra de espaço> para começar a rodar com as definições
+      atuais de Aposta base. Valor da aposta e Nível de aposta. (apenas
+      aplicável à versão de PC)
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start_info4:
+    key: shared_btn_start_info4
+    value: Mantenha premida a tecla <Barra de espaço> para continuar a rodar até
+      soltar a tecla. (apenas aplicável à versão de PC)
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_stop:
+    key: shared_btn_stop
+    value: Parar
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_stop_info1:
+    key: shared_btn_stop_info1
+    value: Toque para parar a Rodada automática. O número no botão indica o número
+      restante de rodadas da Rodada automática.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_minus:
+    key: shared_btn_minus
+    value: Menos
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_minus_info1:
+    key: shared_btn_minus_info1
+    value: Toque para reduzir o Montante de Aposta.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_add:
+    key: shared_btn_add
+    value: Mais
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_add_info1:
+    key: shared_btn_add_info1
+    value: Toque para aumentar as Opções de Aposta.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_money_bag_balance:
+    key: shared_money_bag_balance
+    value: Saldo da Carteira
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_money_bag_balance_info1:
+    key: shared_money_bag_balance_info1
+    value: Apresentar o saldo das carteiras disponíveis.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money:
+    key: shared_bet_money
+    value: Valor de aposta
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info1:
+    key: shared_bet_money_info1
+    value: Toque para apresentar as Opções de Aposta.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info2:
+    key: shared_bet_money_info2
+    value: "Aposta: Deslize para selecionar a Aposta."
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info3:
+    key: shared_bet_money_info3
+    value: "Nível de aposta: Deslize para selecionar o Nível de aposta."
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info4:
+    key: shared_bet_money_info4
+    value: "Valor de aposta: Deslize para selecionar o Valor de aposta."
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info5:
+    key: shared_bet_money_info5
+    value: "Aposta máxima: Toque para definir a Aposta e o Nível de aposta para os
+      valores máximos."
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_bet_size_introduce:
+    key: shared_game_bet_size_introduce
+    value: A aposta é definida com o seletor "Aposta".
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_bet_multiple_introduce:
+    key: shared_game_bet_multiple_introduce
+    value: O nível da aposta é definido com o seletor "Nível de aposta".
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_total_bet_introduce:
+    key: shared_game_total_bet_introduce
+    value: O valor da aposta é definido com o seletor "Valor de aposta".
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_other_info:
+    key: shared_game_rule_other_info
+    value: Informação adicional
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_6:
+    key: game_rate_line_info_6
+    value: Todos os ganhos são apresentados em dinheiro.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_auto_start:
+    key: shared_btn_auto_start
+    value: Rodada automática
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_load_shared:
+    key: shared_load_shared
+    value: A carregar recursos
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_load_game_bundle:
+    key: shared_load_game_bundle
+    value: A carregar jogo
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_loading_tips:
+    key: shared_loading_tips
+    value: Carregando, em progresso
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_login_fail:
+    key: shared_login_fail
+    value: Falha ao iniciar sessão.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_line:
+    key: shared_setting_bet_line
+    value: Aposta base
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule:
+    key: shared_game_rule
+    value: Regras do Jogo
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_round_count:
+    key: shared_round_count
+    value: Ronda {1}
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_reward_multiple:
+    key: shared_record_reward_multiple
+    value: Multiplicador de ganhos
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_state:
+    key: shared_record_win_state
+    value: Pagamento
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_2:
+    key: shared_record_win_line_2
+    value: 2 iguais
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_3:
+    key: shared_record_win_line_3
+    value: 3 iguais
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_4:
+    key: shared_record_win_line_4
+    value: 4 iguais
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_5:
+    key: shared_record_win_line_5
+    value: 5 iguais
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_6:
+    key: shared_record_win_line_6
+    value: 6 iguais
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_7:
+    key: shared_record_win_line_7
+    value: 7 iguais
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_8:
+    key: shared_record_win_line_8
+    value: 8 iguais
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_9:
+    key: shared_record_win_line_9
+    value: 9 iguais
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_free_bonus_n:
+    key: shared_record_free_bonus_n
+    value: "{1} Rodada grátis"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_free_play:
+    key: shared_record_free_play
+    value: "Rodada grátis: {1}/{2}"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_n:
+    key: shared_record_win_line_n
+    value: "{1} sentido(s)"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_money_symbol:
+    key: shared_money_symbol
+    value: R$
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_range:
+    key: shared_record_date_range
+    value: "{1}/{2}/{3}  -  {4}/{5}/{6}"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_note_title_transaction_fail:
+    key: shared_note_title_transaction_fail
+    value: Falha ao efetuar a transação
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_insufficient_balance_tips:
+    key: shared_insufficient_balance_tips
+    value: |-
+      Saldo insuficiente.  Tente alterar o Valor da Aposta.
+      (Código de erro:{1})
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_tips:
+    key: shared_title_tips
+    value: Sugestão
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_note_heart_beat_time_out:
+    key: shared_note_heart_beat_time_out
+    value: Conexão com o servidor expirou. Deseja recarregar。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_reload:
+    key: shared_title_reload
+    value: Recarregar
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_symbol_name_scatter:
+    key: shared_symbol_name_scatter
+    value: Símbolo Scatter
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_symbol_name_wild:
+    key: shared_symbol_name_wild
+    value: Símbolo Wild
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_prize_money:
+    key: shared_prize_money
+    value: Montante de Prémio
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_prize_money_info1:
+    key: shared_prize_money_info1
+    value: Toque para apresentar o Histórico do Jogo.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_auto_start_info1:
+    key: shared_btn_auto_start_info1
+    value: A Rodada automática joga automaticamente durante o número de rodadas
+      selecionado.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_auto_start_info2:
+    key: shared_btn_auto_start_info2
+    value: Toque nos valores para selecionar o número de Rodadas Automáticas.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_snape:
+    key: shared_btn_snape
+    value: Rodada Turbo
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_snape_info1:
+    key: shared_btn_snape_info1
+    value: Toque para ativar ou desativar a Rodada Turbo, que reduzirá a duração das
+      rodadas do cilindro no jogo principal.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_menu:
+    key: shared_btn_menu
+    value: Mais definições
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_menu_info1:
+    key: shared_btn_menu_info1
+    value: Toque para aceder a definições adicionais.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_audio_info1:
+    key: shared_btn_audio_info1
+    value: Toque para ATIVAR ou DESATIVAR o som.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_rate_info1:
+    key: shared_btn_rate_info1
+    value: Mostra as combinações vencedoras e a tabela de pagamentos.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_rule_info1:
+    key: shared_btn_rule_info1
+    value: Mostra as regras do jogo e as funções dos botões.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_history_info1:
+    key: shared_btn_history_info1
+    value: Mostra os detalhes dos jogos anteriores.Desliza até ao fim da página para
+      carregar mais registos.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_history_info2:
+    key: shared_btn_history_info2
+    value: Toque em         para selecionar as datas dos jogos a apresentar no
+      Histórico.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_close_info1:
+    key: shared_btn_close_info1
+    value: Toque para voltar ao Jogo principal.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_bonus_multiple:
+    key: shared_game_rule_bonus_multiple
+    value: Bônus em Dobro
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_free_game:
+    key: shared_game_rule_free_game
+    value: Modelo de Rodadas Grátis
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rate_line_example:
+    key: shared_game_rate_line_example
+    value: Consulte os exemplos acima
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rate_line_example_2:
+    key: shared_game_rate_line_example_2
+    value: Total de ganhos neste exemplo
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_money_bag_introduce:
+    key: shared_game_money_bag_introduce
+    value: A "Carteira de dinheiro" apresenta o dinheiro disponível para apostar.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_auto_spin_introduce:
+    key: shared_game_auto_spin_introduce
+    value: A "Rodada automática" joga automaticamente durante o número de rodadas
+      selecionado.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_other_info_1:
+    key: shared_game_rule_other_info_1
+    value: O mau funcionamento anula todos os pagamentos ejogadas.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_other_info_2:
+    key: shared_game_rule_other_info_2
+    value: Em caso de disputas sobre os resultados do jogo,todos os resultados do
+      jogo mostrados na página do histórico do jogo são absolutos e finais.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  buy_bonus_game:
+    key: buy_bonus_game
+    value: Comprar Funcionalidate
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  "'-------------------'":
+    key: "'-------------------'"
+    value: "'-------------'"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_bonus_multiple_1:
+    key: game_rule_bonus_multiple_1
+    value: No início de qualquer rodada no jogo principal, o multiplicador de ganhos
+      é de x1.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_bonus_multiple_2:
+    key: game_rule_bonus_multiple_2
+    value: Durante qualquer rodada, se existir um ou mais símbolos vencedores nos
+      cilindros, depois dos ganhos serem pagos e os novos símbolos terem caído,
+      o multiplicador de ganhos será aumentado em 1.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_free_game_1:
+    key: game_rule_free_game_1
+    value: 4 símbolos Scatter em qualquer posição a Funcionalidade Rodada Grátis com
+      10 rodadas grátis. Cada símbolo Scatter adicional ativará mais 2 rodadas
+      grátis.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_free_game_2:
+    key: game_rule_free_game_2
+    value: No início da Funcionalidade Rodadas Grátis, o multiplicador de ganhos é
+      de x2.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_free_game_3:
+    key: game_rule_free_game_3
+    value: Durante qualquer rodada grátis, se existir um ou mais símbolos vencedores
+      nos cilindros, depois dos ganhos serem pagos e os novos símbolos terem
+      caído,o multiplicador de ganhos será aumentado em x2.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_free_game_4:
+    key: game_rule_free_game_4
+    value: As rodadas grátis podem ser reativadas
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_symbol:
+    key: game_rule_symbol
+    value: Coringa multi-linha
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_symbol_1:
+    key: game_rule_symbol_1
+    value: Durante qualquer rodada, alguns símbolos (exceto os símbolos Wild e
+      Scatter) nos cilindros 2, 3, 4 e/ou 5 que ocupam 2 a 4 espaços de símbolos
+      podem teruma moldura prateada à volta.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_symbol_2:
+    key: game_rule_symbol_2
+    value: Em todas as novas rondas após os novos símbolos terem caído, qualquer
+      símbolo com moldura prateada que esteja envolvido num ganho na ronda
+      anterior será transformado num símbolo selecionado aleatoriamente (exceto
+      símbolo Wild e Scatter)comuma moldura dourada à volta.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_symbol_3:
+    key: game_rule_symbol_3
+    value: Em todas as novas rondas após os novos símbolos terem caído, qualquer
+      símbolo com moldura dourada que esteja envolvido num ganho na ronda
+      anterior será transformado em 2 a 4 símbolos Wild,dependendo do número de
+      espaços de símbolo ocupados pelo símbolo com moldura dourada.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_title:
+    key: game_rate_line_info_title
+    value: 2,025 - 32,400 Sentidos
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_1:
+    key: game_rate_line_info_1
+    value: Ganha com os sentidos de aposta, se os símbolos vencedores se sucederem a
+      partir do cilindro mais à esquerda.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_2:
+    key: game_rate_line_info_2
+    value: O número total de sentidos de aposta vencedores para cada símbolo é
+      calculado multiplicando o número de símbolos vencedores adjacentes em cada
+      símbolo a partir do símbolo mais à esquerda para a direita.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_3:
+    key: game_rate_line_info_3
+    value: O prémio do símbolo vencedor é multiplicado pelo número de sentidos da
+      aposta vencedora.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_4:
+    key: game_rate_line_info_4
+    value: Depois de o pagamento de cada ronda ser feito,todos os símbolos
+      vencedores explodirão permitindo que os símbolos por cima deles caiam em
+      cascata para uma nova ronda.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_5:
+    key: game_rate_line_info_5
+    value: Quaisquer combinações vencedoras serão contabilizadas em todas as rondas
+      até não ser possivel contabilizar mais combinações vencedoras.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_symbol_value:
+    key: game_rate_symbol_value
+    value: Valores de pagamento dos símbolos
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_symbol_info_1:
+    key: game_rate_symbol_info_1
+    value: Alguns símbolos nos cilindros 2, 3, 4 e/ou 5 podem ocupar 2 a 4 espaços
+      de símbolos e cada um desses símbolos contará como um símbolo individual
+      durante os cálculos de pagamento.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  symbol_wild_info:
+    key: symbol_wild_info
+    value: O símbolo Wild substitui todos os símbolos, exceto o símbolo Scatter.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_symbol_info_3:
+    key: game_rate_symbol_info_3
+    value: O símbolo Wild aparece apenas nos cilindros 2, 3, 4 e 5.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1:
+    key: game_rule_title_1
+    value: Treasures of Aztec
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_1:
+    key: game_rule_title_1_1
+    value: Treasures of Aztec é uma slot de vídeo de 6 cilindros e 5 linhas (com um
+      cilindro adicional por cima dos cilindros 2,3,4 e 5) com Wilds a caminho e
+      multiplicadores progressivos tanto no jogo principal como nas rodadas
+      grátis.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_2:
+    key: game_rule_title_1_2
+    value: O jogo é jogado com uma aposta base de 20 para 2,025 sentidos -32,400
+      sentidos, nível de aposta de 1 a 10 e valor de aposta de 0.03 a 0.90.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_7:
+    key: game_rule_title_1_7
+    value: As combinações e pagamentos vencedores são feitos de acordo com a "Tabela
+      de pagamentos".
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_8:
+    key: game_rule_title_1_8
+    value: O ganho de sentido de aposta em dinheiro é igual ao valor apresentado na
+      "Tabela de pagamentos", multiplicado pela aposta e pelo nível de aposta.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_12:
+    key: game_rule_title_1_12
+    value: Os prêmios de diferentes linhas de pagamento serão combinados.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_19:
+    key: game_rule_title_1_19
+    value: O tamanho da aposta e o multiplicador da aposta no modo de rodadas grátis
+      permanecerão iguais aos parâmetros definidos ao ativar o modo de rodadas
+      grátis.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  symbol_scatter_info:
+    key: symbol_scatter_info
+    value: 3 símbolos de tesouro acionam rodadas grátis.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  FeatureBuyDesc1:
+    key: FeatureBuyDesc1
+    value: Clique no botão "Comprar Jogo de Bônus" para abrir o menu de jogos de
+      bônus.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  FeatureBuyDesc2:
+    key: FeatureBuyDesc2
+    value: Clique no botão "Iniciar" para comprar o modo de rodadas grátis pelo
+      preço exibido no menu de jogos de bônus.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_9:
+    key: game_rule_title_1_9
+    value: Ganha com os sentidos de aposta, se os símbolos vencedores se sucederem a
+      partir do cilindro mais à esquerda.
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_10:
+    key: game_rule_title_1_10
+    value: O número total de sentidos de aposta vencedores para cada símbolo é
+      calculado multiplicando o número de símbolos vencedores adjacentes em cada
+      símbolo a partir do símbolo mais à esquerda para a direita.
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_11:
+    key: game_rule_title_1_11
+    value: O prémio do símbolo vencedor é multiplicado pelo número de sentidos da
+      aposta vencedora.
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_13:
+    key: game_rule_title_1_13
+    value: Depois de o pagamento de cada ronda ser feito,todos os símbolos
+      vencedores explodirão permitindo que os símbolos por cima deles caiam em
+      cascata para uma nova ronda.
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_14:
+    key: game_rule_title_1_14
+    value: Quaisquer combinações vencedoras serão contabilizadas em todas as rondas
+      até não ser possível contabilizar mais combinações vencedoras.
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_15:
+    key: game_rule_title_1_15
+    value: Todos os ganhos são apresentados em dinheiro.
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  ScatterDescription:
+    key: ScatterDescription
+    value: 4 ou mais símbolos de tesouro acionarão o modo de rodadas grátis.
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_NetworkErrorMessage:
+    key: shared_NetworkErrorMessage
+    value: Não foi possível conectar ao servidor. Verifique sua rede ou tente
+      novamente.
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_ServerErrorMessage:
+    key: shared_ServerErrorMessage
+    value: Solicitação ao servidor falhou.
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_AnimationTips:
+    key: shared_AnimationTips
+    value: Se nos está a visitar pela primeira vez, a transferência pode demorar um
+      pouco!|Para a melhor experiência de jogo, utilize o Safari ou o
+      Chrome!|Desative páginas inativas e disponibilize mais
+      recursos!|Recomendamos a transferência por Wi-Fi para jogar em HD!|Os
+      jogos carregados anteriormente carregam mais rapidamente a partir da cache
+      do navegador!|Atualize para o dispositivo mais recente para desfrutar da
+      melhor experiência de jogo!
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_account_login:
+    key: shared_account_login
+    value: Autenticação de conta em andamento
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_load_user_info:
+    key: shared_load_user_info
+    value: Carregando informações do jogador
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_login_fail_net_error_title:
+    key: shared_login_fail_net_error_title
+    value: Erro de rede
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_login_fail_net_error_content:
+    key: shared_login_fail_net_error_content
+    value: Falha ao conectar ao servidor
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_login_fail_account_error_title:
+    key: shared_login_fail_account_error_title
+    value: Problema na conta
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_login_fail_account_error_content:
+    key: shared_login_fail_account_error_content
+    value: Falha ao ler as informações da conta
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  6dba1c58-e689-4d86-be20-cf5d17f823f7:
+    key: 6dba1c58-e689-4d86-be20-cf5d17f823f7
+    value: 4bd40391-9f96-4099-b273-740e6314e6e6
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  30b1a184-c673-45d9-932a-5b35810a472f:
+    key: 30b1a184-c673-45d9-932a-5b35810a472f
+    value: 6e19786a-4f3c-4e99-a495-af03729a17d4
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  1904d2ad-3ddb-40c0-8d1b-8ba37bca0359:
+    key: 1904d2ad-3ddb-40c0-8d1b-8ba37bca0359
+    value: 8a86621b-99ad-4804-b195-6b38ab137040
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  25ffcee9-6336-4876-8e0e-02a01fff66ba:
+    key: 25ffcee9-6336-4876-8e0e-02a01fff66ba
+    value: 58e575b8-2701-490b-b3bb-0a38384cad23
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  2f7e1623-3b28-47ff-9505-68f8e38c7cf1:
+    key: 2f7e1623-3b28-47ff-9505-68f8e38c7cf1
+    value: d100fa16-e87a-4dd8-9233-c5e2d78078cc
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  d64bcb62-f73b-44a7-923f-aa7b70c1c3c1:
+    key: d64bcb62-f73b-44a7-923f-aa7b70c1c3c1
+    value: e417d5f0-ae65-49b4-9c30-9e819f8e6534
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  d1ff2f6b-00ce-4403-8740-819b836621e8:
+    key: d1ff2f6b-00ce-4403-8740-819b836621e8
+    value: 86aa3606-dda3-4c8f-a765-ee059a1a66ec
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  d3479ce7-8026-4f24-bd18-c546fe31abb5:
+    key: d3479ce7-8026-4f24-bd18-c546fe31abb5
+    value: ca24b04f-707b-441b-ac3b-5f4f9ab00883
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  35f5c60a-9225-432f-a325-769a88a0980d:
+    key: 35f5c60a-9225-432f-a325-769a88a0980d
+    value: 7b8b169b-8ce7-4469-8421-d785c81737b8
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  a05d8205-7edf-465d-ad24-3597977dd2a6:
+    key: a05d8205-7edf-465d-ad24-3597977dd2a6
+    value: f0e3c3ba-ca14-4a7d-ab73-2c3110a786dc
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  adaf6991-10f9-4b8a-9c58-35b54f107597:
+    key: adaf6991-10f9-4b8a-9c58-35b54f107597
+    value: f0cf7bdf-5f50-4014-9e79-4a7c4f269acc
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  7ab7758c-cbc4-411f-9db0-08aad5585f24:
+    key: 7ab7758c-cbc4-411f-9db0-08aad5585f24
+    value: a2ec48ec-9aa7-4642-9c50-15b98553e89c
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  5e6ab2d5-27f2-4de3-9d6d-54410fa65c2b:
+    key: 5e6ab2d5-27f2-4de3-9d6d-54410fa65c2b
+    value: 43b1dc10-5c79-4502-8588-20176cd41650
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  018ccf7b-ab87-4f8a-871c-4964c7d0edb7:
+    key: 018ccf7b-ab87-4f8a-871c-4964c7d0edb7
+    value: 71b86fc2-aa11-4ae5-b2aa-933a7a5efd1e
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  05c8b507-cd9d-4ee5-acb0-655ae6268136:
+    key: 05c8b507-cd9d-4ee5-acb0-655ae6268136
+    value: 30d1be36-3769-42c2-a6f4-ac1afe92013c
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  54d599ed-80ca-4ae0-94bf-4584ff0da2a1:
+    key: 54d599ed-80ca-4ae0-94bf-4584ff0da2a1
+    value: dc23f80b-d78e-4487-b97b-ef52475e876a
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  9bf21328-a69f-478b-beed-cc00006e56e4:
+    key: 9bf21328-a69f-478b-beed-cc00006e56e4
+    value: 34bd105f-20e8-43c9-a1a0-6fff12201f64
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  970afe9a-ee30-4eda-8e7c-c156dcf8ff3c:
+    key: 970afe9a-ee30-4eda-8e7c-c156dcf8ff3c
+    value: 4489cdb9-2696-44c1-b3ef-4d6b33da7b76
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  1da96208-f4f1-4dcd-b7b3-44622767341a:
+    key: 1da96208-f4f1-4dcd-b7b3-44622767341a
+    value: 49c35539-1020-406c-b115-4b039c75da64
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  7e249902-c2ee-4eed-8617-c61a3c847e3f:
+    key: 7e249902-c2ee-4eed-8617-c61a3c847e3f
+    value: 3af71f32-002b-4fee-a2a1-a11683eab56e
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  5de63811-d3c7-426d-a8ce-c0396d4784a6:
+    key: 5de63811-d3c7-426d-a8ce-c0396d4784a6
+    value: bdcb1f51-f509-4f60-9487-8263808fd50b
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  51628e84-66f3-4d31-94ed-2da2a519e2a3:
+    key: 51628e84-66f3-4d31-94ed-2da2a519e2a3
+    value: f1291f3a-c579-488f-9de9-c6dddf5c9971
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  ddf6b79f-4dc2-4b03-b3fa-7e3d5438a025:
+    key: ddf6b79f-4dc2-4b03-b3fa-7e3d5438a025
+    value: 5e12a482-65ed-4be1-9fc1-eecb3262f42d
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  9882c666-bf52-4734-a388-57cbd529db49:
+    key: 9882c666-bf52-4734-a388-57cbd529db49
+    value: b8c2f665-6767-4d59-b2b3-e65bd7ca5116
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  4d4d338a-179e-4702-af27-33154a820ed3:
+    key: 4d4d338a-179e-4702-af27-33154a820ed3
+    value: 6410ec46-7210-4d07-96c9-9144d76029de
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  18c3b17d-c903-4e84-aa23-54d2b7af3438:
+    key: 18c3b17d-c903-4e84-aa23-54d2b7af3438
+    value: d6e23fc2-b3e1-457e-9799-7c8c1b7922f6
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  c9031208-b0b5-4dbf-946c-7514e56072a4:
+    key: c9031208-b0b5-4dbf-946c-7514e56072a4
+    value: d3cee787-597e-4926-9b84-6b987b43931f
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  47fc2a02-f800-499b-964e-1b170fb9f350:
+    key: 47fc2a02-f800-499b-964e-1b170fb9f350
+    value: a8e10683-4121-48aa-aac5-3c5b597a5bf4
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  d873b6ac-63ac-48bd-bdd1-47ca6b4d228d:
+    key: d873b6ac-63ac-48bd-bdd1-47ca6b4d228d
+    value: 3e4df84a-6737-4395-a502-f46ab9e7b33f
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  6204ef48-8dba-4f07-984a-c3231f3bf2e7:
+    key: 6204ef48-8dba-4f07-984a-c3231f3bf2e7
+    value: 8287f1ef-1b94-4676-ae98-1ae4bc78cf52
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  b4cc7c6e-f6c2-44d8-bb23-d4ae0c0033eb:
+    key: b4cc7c6e-f6c2-44d8-bb23-d4ae0c0033eb
+    value: 9308203a-6532-4b7c-ba3d-38cb555a2642
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  6aeffcd5-2dee-4b37-9d18-d623873b09c9:
+    key: 6aeffcd5-2dee-4b37-9d18-d623873b09c9
+    value: 209b7b79-ab00-48fc-83d5-803efee2e8c4
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  20df1aab-6e08-4bbc-8e64-96afa2854dd9:
+    key: 20df1aab-6e08-4bbc-8e64-96afa2854dd9
+    value: 6f781f02-49ec-44b4-af60-81d8423ea5fa
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  c4c1da25-08e4-4f9a-a18a-ecd1a74b1dd1:
+    key: c4c1da25-08e4-4f9a-a18a-ecd1a74b1dd1
+    value: 73d98156-e10f-4cb9-84ca-a0631ba775de
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+  836d5245-f89b-4e52-842a-70e072658a11:
+    key: 836d5245-f89b-4e52-842a-70e072658a11
+    value: c5a74029-51a0-48a7-ba02-61d3c1fbb43d
+    type: 1
+    isVariant: false
+    associations: []
+    _variants: []
+languageConfig:
+  bcp47Tag: pt
+  translateFinished: 471
+  translateTotal: 1567
+  compileFinished: 0
+  compileTotal: 207

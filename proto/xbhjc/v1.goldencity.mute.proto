@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+enum AudioSwitchType{
+    ON = 0; // 开
+    OFF = 1; // 关
+}
+
+message TProtoGoldenCityMuteReq
+{
+    string              token       = 1;  //
+    AudioSwitchType     mute        = 2;
+}
